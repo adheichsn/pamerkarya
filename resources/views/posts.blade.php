@@ -4,14 +4,14 @@
 
     @include('partials.navbar')
 
-    <section id="product" class="bg-[#2B2B2B]">
+    <section id="product" class="bg-white">
 
         <div class="pt-24 pb-10 sm:pt-32">
             <div class="px-6 mx-auto max-w-7xl lg:px-8">
                 <div class="max-w-2xl mx-auto text-center" data-aos="fade-up" data-aos-duration="500"
                     data-aos-easing="ease-in-out">
-                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our Product</h2>
-                    <p class="mt-2 text-lg leading-8 text-white">{{ $title }}</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">Our Product</h2>
+                    <p class="mt-2 text-lg leading-8 text-black">{{ $title }}</p>
                 </div>
                 <!-- Search bar -->
                 <div class="flex justify-end" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
@@ -19,7 +19,7 @@
                         <label for="simple-search" class="sr-only">Search Product</label>
                         <div class="relative w-full">
                             <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                                <svg aria-hidden="true" class="w-5 h-5 text-gray-400" fill="currentColor"
+                                <svg aria-hidden="true" class="w-5 h-5 text-black-400" fill="currentColor"
                                     viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd"
                                         d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
@@ -27,11 +27,11 @@
                                 </svg>
                             </div>
                             <input type="text" id="simple-search"
-                                class="bg-gray-700 border border-gray-600 text-white text-sm rounded-lg focus:ring-slate-500 focus:border-slate-500 block w-full pl-10 p-2.5 placeholder-gray-400"
+                                class="bg-white-700 border border-white-600 text-black text-sm rounded-lg focus:ring-slate-500 focus:border-slate-500 block w-full pl-10 p-2.5 placeholder-white-400"
                                 placeholder="Search" name="search" value="{{ request('search') }}" required>
                         </div>
                         <button type="submit"
-                            class="p-2.5 ml-2 text-sm font-medium text-white bg-slate-600 rounded-lg border border-slate-400 hover:bg-slate-800 focus:ring-4 focus:outline-none focus:ring-slate-300 transition duration-300 ease-in-out">
+                            class="p-2.5 ml-2 text-sm font-medium text-black bg-slate-600 rounded-lg border border-slate-400 hover:bg-slate-800 focus:ring-4 focus:outline-none focus:ring-slate-300 transition duration-300 ease-in-out">
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -56,7 +56,7 @@
                                     @else
                                         <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80"
                                             alt=""
-                                            class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
+                                            class="aspect-[16/9] w-full rounded-2xl bg-white-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
                                         <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
                                     @endif
                                 </div>
@@ -64,23 +64,23 @@
                                     <div class="flex items-center mt-8 text-xs gap-x-4">
                                         <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
                                         <a href="product?category={{ $post->category->slug }}"
-                                            class="relative z-10 rounded-full bg-[#06E3FF] px-3 py-1.5 font-medium text-black hover:bg-slate-600 hover:text-white transition duration-300 ease-in-out">{{ $post->category->name }}</a>
+                                            class="relative z-10 rounded-full bg-[#06E3FF] px-3 py-1.5 font-medium text-black hover:bg-slate-600 hover:text-black transition duration-300 ease-in-out">{{ $post->category->name }}</a>
                                     </div>
                                     <div class="relative group">
                                         <h3
-                                            class="mt-3 text-lg font-semibold leading-6 text-white transition duration-300 ease-in-out group-hover:text-gray-600">
+                                            class="mt-3 text-lg font-semibold leading-6 text-black transition duration-300 ease-in-out group-hover:text-gray-600">
                                             <a href="/product/{{ $post->slug }}">
                                                 <span class="absolute inset-0"></span>
                                                 {{ $post->title }}
                                             </a>
                                         </h3>
-                                        <p class="mt-5 text-sm leading-6 text-gray-400 line-clamp-3">{{ $post->excerpt }}
+                                        <p class="mt-5 text-sm leading-6 text-black-400 line-clamp-3">{{ $post->excerpt }}
                                         </p>
                                     </div>
                                     <div class="mt-8 gap-x-4">
                                         <div class="relative flex items-center justify-between text-sm">
                                             <div>
-                                                <p class="font-semibold text-white">
+                                                <p class="font-semibold text-black">
                                                     <a href="/blog?user={{ $post->user->username }}"
                                                         class="transition duration-300 ease-in-out hover:text-gray-600">
                                                         <span class="absolute inset-0"></span>
@@ -90,7 +90,7 @@
                                             </div>
                                             <div>
                                                 <a href="/product/{{ $post->slug }}"
-                                                    class="relative z-10 rounded-xl bg-slate-600 px-3 py-1.5 font-medium text-white hover:bg-[#06E3FF] hover:text-black transition duration-300 ease-in-out">Read
+                                                    class="relative z-10 rounded-xl bg-slate-600 px-3 py-1.5 font-medium text-white hover:bg-[#06E3FF] hover:text-white transition duration-300 ease-in-out">Read
                                                     More</a>
                                             </div>
                                         </div>

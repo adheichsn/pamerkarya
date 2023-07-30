@@ -3,7 +3,7 @@
 
 @section('container')
     @include('partials.navbar')
-    <main class="isolate bg-[#2B2B2B]">
+    <main class="bg-white isolate">
         {{-- <section id="home" class="bg-white pt-36 pb-14 lg:pt-0">
             <div class="container">
                 <div class="flex flex-wrap lg:px-5">
@@ -67,17 +67,16 @@
             <div class="flex flex-wrap px-5 py-10 lg:px-5 lg:py-0">
                 <div class="self-center w-full px-10 lg:w-1/2" data-aos="fade-right" data-aos-duration="500"
                     data-aos-easing="ease-in-out">
-                    <h2 class="text-2xl font-semibold leading-relaxed text-white">Welcome to</h2>
-                    <h1 class="mb-5 font-bold text-white text-7xl">VR Lab - SMK</h1>
-                    <p class="mb-5 font-medium leading-relaxed text-white">Berinteraksi dengan dunia
-                        maya melalui
-                        headset VR, sarana input seperti sensor gerakan, dan
-                        visual yang ciamik </p>
+                    {{-- <h2 class="text-2xl font-semibold leading-relaxed text-white">Welcome to</h2> --}}
+                    <h1 class="mb-5 text-5xl font-bold text-black">Buat Portofoliomu dan Temukan Potensimu</h1>
+                    <p class="mb-5 font-medium leading-relaxed text-black">Selamat Datang di Masa Depan Kreativitas! 
+                        Temukan bakat-bakat Hebat yang Memukau dari Berbagai Bidang. Mari Terpesona oleh Bakat-Bakat Brilian yang Menciptakan Karya Mengagumkan. 
+                        Temukan potensi karyamu!</p>
 
                     <a href="/about">
                         <button type="button"
                             class="inline-flex items-center rounded-full bg-[#06E3FF] px-[78px] py-[21px] text-lg font-semibold text-[#2B2B2B] shadow-sm hover:bg-slate-500 hover:text-white transition duration-300 ease-in-out">
-                            <h1>Experience</h1>
+                            <h1>Jelajahi</h1>
 
                         </button>
                     </a>
@@ -86,20 +85,77 @@
                 <div class="self-end w-full px-9 lg:w-1/2" data-aos="fade-up" data-aos-duration="500"
                     data-aos-easing="ease-in-out">
                     <div class="mt-10">
-                        <img src="img/ilustrasi.png" class="max-w-full mx-auto" alt="VR Man">
+                        <!-- <img src="img/landingbg.png" class="max-w-full mx-auto" alt="VR Man"> -->
+                        <img src="img/foto_smk.png" class="max-w-full mx-auto" alt="Collage img">
                     </div>
                 </div>
             </div>
         </div>
 
 
+        <!-- Image section -->
+        {{-- <div class="px-8 mt-32 sm:mt-40 xl:mx-auto xl:max-w-9xl">
+            <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2894&q=80"
+                alt="" class="aspect-[9/4] w-full object-cover rounded-3xl">
+        </div> --}}
+        <div class="w-full px-8 py-10 mx-auto text-black lg:px-36 lg:py-28">
+        <h2 class="py-5 mb-5 text-5xl font-bold tracking-tight text-center text-black sm:text-4xl">Satu Platform Untuk Semua <span style="color: #06E3FF;">Karya</span></h2>
+            <div class="max-w-2xl mx-auto lg:max-w-none">
+                <div class="text-center">
+                    <div data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">
+                        <p class="custom-line-spacing">VR Lab adalah inovator dalam teknologi virtual reality (VR). tujuan kami untuk
+                            menciptakan pengalaman VR yang memukau dan menarik perhatian dengan inovasi yang dapat
+                            di garap sesuai dengan kebutuhan penguna. Dengan tim yang terdiri dari desainer, IT, dan Game dev , Divisi VR Lab
+                            mampu menciptakan dunia virtual yang menakjubkan. Mereka menggabungkan grafis
+                            berkualitas tinggi, suara realistis, dan kontrol yang responsif untuk menghadirkan
+                            pengalaman yang tampak nyata.</p>
+                        <style>
+                        .custom-line-spacing {
+                            line-height: 2.5;
+                            font-size: 20px;
+                            margin-top: 24px;
+                        }
+                        </style>
+                    </div>
+                    {{-- <div data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in-out">
+                        <p>Kami juga menawarkan solusi VR yang beragam, mulai dari pengembangan permainan interaktif
+                            hingga simulasi pelatihan yang memadai. Mereka bekerja sama dengan klien dari berbagai
+                            industri, termasuk pendidikan, perhotelan, dan perawatan kesehatan, untuk menciptakan
+                            pengalaman VR yang sesuai dengan kebutuhan khusus masing-masing.</p>
+                        <p class="mt-8">Potensi kami juga meliputi pengembangan perangkat keras VR. kami juga
+                            menyiapkan , lebih nyaman, dan lebih imersif untuk memastikan pengalaman VR yang optimal
+                            bagi pengguna.</p>
+                    </div> --}}
+                </div>
+                {{-- <dl class="grid grid-cols-1 mt-16 gap-x-8 gap-y-12 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-4"
+                    data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <div class="flex flex-col-reverse pl-6 border-l gap-y-3 border-white/20">
+                        <dt class="text-base leading-7 text-white">Business was founded</dt>
+                        <dd class="text-3xl font-semibold tracking-tight text-white"><span>2012</span></dd>
+                    </div>
+                    <div class="flex flex-col-reverse pl-6 border-l gap-y-3 border-white/20">
+                        <dt class="text-base leading-7 text-white">People on the team</dt>
+                        <dd class="text-3xl font-semibold tracking-tight text-white"><span>120</span>+</dd>
+                    </div>
+                    <div class="flex flex-col-reverse pl-6 border-l gap-y-3 border-white/20">
+                        <dt class="text-base leading-7 text-white">Users on the platform</dt>
+                        <dd class="text-3xl font-semibold tracking-tight text-white"><span>250</span>k</dd>
+                    </div>
+                    <div class="flex flex-col-reverse pl-6 border-l gap-y-3 border-white/20">
+                        <dt class="text-base leading-7 text-white">Paid out to creators</dt>
+                        <dd class="text-3xl font-semibold tracking-tight text-white">$<span>70</span>M</dd>
+                    </div>
+                </dl> --}}
+            </div>
+        </div>
+
         <!-- Product section -->
-        <div class="pt-24 sm:pt-32">
+        <div class="pt-20 sm:pt-28">
             <div class="px-6 mx-auto max-w-7xl lg:px-8">
                 <div class="max-w-2xl mx-auto text-center" data-aos="fade-up" data-aos-duration="500"
                     data-aos-easing="ease-in-out">
-                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our Product</h2>
-                    <p class="mt-2 text-lg leading-8 text-white">Learn how to grow your business with our expert
+                    <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">Kumpulan Kreativitas Kami</h2>
+                    <p class="mt-2 text-lg leading-8 text-black">Learn how to grow your business with our expert
                         advice.</p>
                 </div>
                 <div class="grid max-w-2xl grid-cols-1 mx-auto mt-16 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
@@ -110,7 +166,7 @@
                                 <div class="relative w-full">
                                     @if ($post->image)
                                         <img src="{{ asset('storage/' . $post->image) }}" alt=""
-                                            class="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
+                                            class="aspect-[16/9] w-full rounded-2xl bg-white-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]">
                                         <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
                                     @else
                                         <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80"
@@ -123,25 +179,25 @@
                                     <div class="flex items-center mt-8 text-xs gap-x-4">
                                         <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
                                         <a href="blog?category={{ $post->category->slug }}"
-                                            class="relative z-10 rounded-full bg-[#06E3FF] px-3 py-1.5 font-medium text-black hover:bg-slate-600 hover:text-white transition duration-300 ease-in-out">{{ $post->category->name }}</a>
+                                            class="relative z-10 rounded-full bg-[#06E3FF] px-3 py-1.5 font-medium text-black hover:bg-slate-600 hover:text-black transition duration-300 ease-in-out">{{ $post->category->name }}</a>
                                     </div>
                                     <div class="relative group">
                                         <h3
-                                            class="mt-3 text-lg font-semibold leading-6 text-white transition duration-300 ease-in-out group-hover:text-gray-600">
+                                            class="mt-3 text-lg font-semibold leading-6 text-black transition duration-300 ease-in-out group-hover:text-gray-600">
                                             <a href="/product/{{ $post->slug }}">
                                                 <span class="absolute inset-0"></span>
                                                 {{ $post->title }}
                                             </a>
                                         </h3>
-                                        <p class="mt-5 text-sm leading-6 text-gray-400 line-clamp-3">{{ $post->excerpt }}
+                                        <p class="mt-5 text-sm leading-6 text-black-400 line-clamp-3">{{ $post->excerpt }}
                                         </p>
                                     </div>
                                     <div class="mt-8 gap-x-4">
                                         <div class="relative flex items-center justify-between text-sm">
                                             <div>
-                                                <p class="font-semibold text-white">
+                                                <p class="font-semibold text-black">
                                                     <a href="/blog?user={{ $post->user->username }}"
-                                                        class="transition duration-300 ease-in-out hover:text-gray-600">
+                                                        class="transition duration-300 ease-in-out hover:text-black-600">
                                                         <span class="absolute inset-0"></span>
                                                         {{ $post->user->name }}
                                                     </a>
@@ -164,70 +220,20 @@
                 <div class="flex justify-center w-full mt-20" data-aos="fade-up" data-aos-duration="500"
                     data-aos-easing="ease-in-out">
                     <a href="/product"
-                        class="relative z-10 rounded-full bg-slate-300 px-[78px] py-[21px] font-medium text-black hover:bg-slate-600 transition duration-300 ease-in-out">More
+                        class="relative z-10 rounded-full bg-slate-300 px-[78px] py-[21px] font-medium text-black hover:bg-slate-600 transition duration-300 ease-in-out mb-5">More
                         Post</a>
                 </div>
             </div>
         </div>
 
 
-
-        <!-- Image section -->
-        <div class="px-8 mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl">
-            <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2894&q=80"
-                alt="" class="aspect-[9/4] w-full object-cover rounded-3xl">
-        </div>
-        <div class="w-full px-8 py-10 mx-auto text-white lg:px-36 lg:py-28">
-            <div class="max-w-2xl mx-auto lg:max-w-none">
-                <div class="grid max-w-xl grid-cols-1 gap-8 text-base leading-7 lg:max-w-none lg:grid-cols-2">
-                    <div data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">
-                        <p>VR Lab adalah inovator dalam teknologi virtual reality (VR). tujuan kami untuk
-                            menciptakan pengalaman VR yang memukau dan menarik perhatian dengan inovasi yang dapat
-                            di garap sesuai dengan kebutuhan penguna.</p>
-                        <p class="mt-8">Dengan tim yang terdiri dari desainer, IT, dan Game dev , Divisi VR Lab
-                            mampu menciptakan dunia virtual yang menakjubkan. Mereka menggabungkan grafis
-                            berkualitas tinggi, suara realistis, dan kontrol yang responsif untuk menghadirkan
-                            pengalaman yang tampak nyata.</p>
-                    </div>
-                    <div data-aos="fade-left" data-aos-duration="500" data-aos-easing="ease-in-out">
-                        <p>Kami juga menawarkan solusi VR yang beragam, mulai dari pengembangan permainan interaktif
-                            hingga simulasi pelatihan yang memadai. Mereka bekerja sama dengan klien dari berbagai
-                            industri, termasuk pendidikan, perhotelan, dan perawatan kesehatan, untuk menciptakan
-                            pengalaman VR yang sesuai dengan kebutuhan khusus masing-masing.</p>
-                        <p class="mt-8">Potensi kami juga meliputi pengembangan perangkat keras VR. kami juga
-                            menyiapkan , lebih nyaman, dan lebih imersif untuk memastikan pengalaman VR yang optimal
-                            bagi pengguna.</p>
-                    </div>
-                </div>
-                <dl class="grid grid-cols-1 mt-16 gap-x-8 gap-y-12 sm:mt-20 sm:grid-cols-2 sm:gap-y-16 lg:mt-28 lg:grid-cols-4"
-                    data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
-                    <div class="flex flex-col-reverse pl-6 border-l gap-y-3 border-white/20">
-                        <dt class="text-base leading-7 text-white">Business was founded</dt>
-                        <dd class="text-3xl font-semibold tracking-tight text-white"><span>2012</span></dd>
-                    </div>
-                    <div class="flex flex-col-reverse pl-6 border-l gap-y-3 border-white/20">
-                        <dt class="text-base leading-7 text-white">People on the team</dt>
-                        <dd class="text-3xl font-semibold tracking-tight text-white"><span>120</span>+</dd>
-                    </div>
-                    <div class="flex flex-col-reverse pl-6 border-l gap-y-3 border-white/20">
-                        <dt class="text-base leading-7 text-white">Users on the platform</dt>
-                        <dd class="text-3xl font-semibold tracking-tight text-white"><span>250</span>k</dd>
-                    </div>
-                    <div class="flex flex-col-reverse pl-6 border-l gap-y-3 border-white/20">
-                        <dt class="text-base leading-7 text-white">Paid out to creators</dt>
-                        <dd class="text-3xl font-semibold tracking-tight text-white">$<span>70</span>M</dd>
-                    </div>
-                </dl>
-            </div>
-        </div>
-
         <!-- Contact Person section -->
         <div class="relative isolate">
             <div class="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2">
-                <div class="relative px-6 pt-24 pb-20 sm:pt-32 lg:static lg:px-8 lg:py-48">
+                <div class="relative px-6 pt-10 pb-10 sm:pt-32 lg:static lg:px-8 lg:py-48">
                     <div class="max-w-xl mx-auto lg:mx-0 lg:max-w-lg">
                         <div class="absolute inset-y-0 left-0 w-full overflow-hidden -z-10 ring-1 ring-white/5 lg:w-1/2">
-                            <svg class="absolute inset-0 h-full w-full stroke-gray-700 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+                            {{-- <svg class="absolute inset-0 h-full w-full stroke-gray-700 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
                                 aria-hidden="true">
                                 <defs>
                                     <pattern id="54f88622-e7f8-4f1d-aaf9-c2f5e46dd1f2" width="200" height="200"
@@ -240,7 +246,7 @@
                                 </svg>
                                 <rect width="100%" height="100%" stroke-width="0"
                                     fill="url(#54f88622-e7f8-4f1d-aaf9-c2f5e46dd1f2)" />
-                            </svg>
+                            </svg> --}}
                             <div class="absolute -left-56 top-[calc(100%-13rem)] transform-gpu blur-3xl lg:left-[max(-14rem,calc(100%-59rem))] lg:top-[calc(50%-7rem)]"
                                 aria-hidden="true">
                                 <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-br from-[#06E3FF] to-[#4f46e5] opacity-20"
@@ -248,16 +254,16 @@
                                 </div>
                             </div>
                         </div>
-                        <h2 class="text-3xl font-bold tracking-tight text-white">Get in touch</h2>
-                        <p class="mt-6 text-lg leading-8 text-gray-300">Terima kasih atas minat Anda terhadap Divisi VR
+                        <h2 class="text-3xl font-bold tracking-tight text-black">Get in touch</h2>
+                        <p class="mt-6 text-lg leading-8 text-black-300">Terima kasih atas minat Anda terhadap Divisi VR
                             Lab! Kami akan senang mendengar dari Anda. Jika Anda memiliki pertanyaan, ingin berdiskusi
                             tentang proyek VR Anda, atau tertarik bekerja sama dengan kami, jangan ragu untuk menghubungi
                             kami. Kami siap membantu dan mengeksplorasi peluang yang menarik bersama Anda.</p>
-                        <dl class="mt-10 space-y-4 text-base leading-7 text-gray-300">
+                        <dl class="mt-10 space-y-4 text-base leading-7 text-black-300">
                             <div class="flex gap-x-4">
                                 <dt class="flex-none">
                                     <span class="sr-only">Address</span>
-                                    <svg class="w-6 text-gray-400 h-7" fill="none" viewBox="0 0 24 24"
+                                    <svg class="w-6 text-black-400 h-7" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
@@ -268,7 +274,7 @@
                             <div class="flex gap-x-4">
                                 <dt class="flex-none">
                                     <span class="sr-only">Telephone</span>
-                                    <svg class="w-6 text-gray-400 h-7" fill="none" viewBox="0 0 24 24"
+                                    <svg class="w-6 text-black-400 h-7" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
@@ -281,7 +287,7 @@
                             <div class="flex gap-x-4">
                                 <dt class="flex-none">
                                     <span class="sr-only">Email</span>
-                                    <svg class="w-6 text-gray-400 h-7" fill="none" viewBox="0 0 24 24"
+                                    <svg class="w-6 text-black-400 h-7" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
@@ -298,49 +304,49 @@
                     <div class="max-w-xl mx-auto lg:mr-0 lg:max-w-lg">
                         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                             <div>
-                                <label for="first-name" class="block text-sm font-semibold leading-6 text-white">First
+                                <label for="first-name" class="block text-sm font-semibold leading-6 text-black">First
                                     name</label>
                                 <div class="mt-2.5">
                                     <input type="text" name="first-name" id="first-name" autocomplete="given-name"
-                                        class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
+                                        class="block w-full rounded-md border-0 bg-gray/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-black focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
                                 </div>
                             </div>
                             <div>
-                                <label for="last-name" class="block text-sm font-semibold leading-6 text-white">Last
+                                <label for="last-name" class="block text-sm font-semibold leading-6 text-black">Last
                                     name</label>
                                 <div class="mt-2.5">
                                     <input type="text" name="last-name" id="last-name" autocomplete="family-name"
-                                        class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
+                                        class="block w-full rounded-md border-0 bg-gray/5 px-3.5 py-2 text-gray shadow-sm ring-1 ring-inset ring-gray/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
                                 </div>
                             </div>
                             <div class="sm:col-span-2">
                                 <label for="email"
-                                    class="block text-sm font-semibold leading-6 text-white">Email</label>
+                                    class="block text-sm font-semibold leading-6 text-black">Email</label>
                                 <div class="mt-2.5">
                                     <input type="email" name="email" id="email" autocomplete="email"
-                                        class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
+                                        class="block w-full rounded-md border-0 bg-black/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-black/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
                                 </div>
                             </div>
                             <div class="sm:col-span-2">
-                                <label for="phone-number" class="block text-sm font-semibold leading-6 text-white">Phone
+                                <label for="phone-number" class="block text-sm font-semibold leading-6 text-black">Phone
                                     number</label>
                                 <div class="mt-2.5">
                                     <input type="tel" name="phone-number" id="phone-number" autocomplete="tel"
-                                        class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
+                                        class="block w-full rounded-md border-0 bg-black/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-black/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
                                 </div>
                             </div>
                             <div class="sm:col-span-2">
                                 <label for="message"
-                                    class="block text-sm font-semibold leading-6 text-white">Message</label>
+                                    class="block text-sm font-semibold leading-6 text-black">Message</label>
                                 <div class="mt-2.5">
                                     <textarea name="message" id="message" rows="4"
-                                        class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"></textarea>
+                                        class="block w-full rounded-md border-0 bg-black/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-black/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="flex justify-end mt-8">
                             <button type="submit"
-                                class="rounded-md bg-[#06E3FF] px-3.5 py-2.5 text-center text-sm font-semibold text-[#2B2B2B] shadow-sm hover:bg-slate-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 transition duration-300 ease-in-out">Send
+                                class="rounded-md bg-[#06E3FF] px-3.5 py-2.5 text-center text-sm font-semibold text-[#2B2B2B] shadow-sm hover:bg-slate-500 hover:text-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 transition duration-300 ease-in-out">Send
                                 message</button>
                         </div>
                     </div>

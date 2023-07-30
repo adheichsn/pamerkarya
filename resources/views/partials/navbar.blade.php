@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav text-black">
                 <li class="nav-item">
                     <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page"
                         href="/">Home</a>
@@ -26,7 +26,7 @@
             <ul class="navbar-nav ms-auto">
                 @auth
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Welcome, {{ auth()->user()->name }}
                         </a>
@@ -75,19 +75,19 @@
                     <ul class="block lg:flex">
                         <li class="group">
                             <a href="/"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('/') ? 'text-white' : 'text-slate-400' }}">Home</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('/') ? 'text-black' : 'text-slate-400' }}">Home</a>
                         </li>
                         <li class="group">
                             <a href="/product"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('product') ? 'text-white' : 'text-slate-400' }}">Product</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('product') ? 'text-black' : 'text-slate-400' }}">Product</a>
                         </li>
                         <li class="group">
                             <a href="/about"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('about') ? 'text-white' : 'text-slate-400' }}">About</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('about') ? 'text-black' : 'text-slate-400' }}">About</a>
                         </li>
                         <li class="group">
                             <a href="/categories"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('categories') ? 'text-white' : 'text-slate-400' }}">Categories</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('categories') ? 'text-black' : 'text-slate-400' }}">Categories</a>
                         </li>
                         @auth
                             <li class="relative group">

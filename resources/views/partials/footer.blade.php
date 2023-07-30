@@ -1,14 +1,14 @@
-<footer class="relative w-full bg-[#2B2B2B]" aria-labelledby="footer-heading">
+<footer class="relative w-full bg-white" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="px-6 py-8 mx-auto max-w-7xl lg:px-8">
         <div class="xl:grid xl:grid-cols-3 xl:gap-8">
             <div class="space-y-8">
                 <img class="h-20" src="{{ asset('/img/logo-vr.png') }}" alt="VR Lab">
-                <p class="text-sm leading-6 text-gray-300">Est error fuga modi error. Laborum eum nobis
+                <p class="text-sm leading-6 text-black-300">Est error fuga modi error. Laborum eum nobis
                     porro
                     cupiditate et quo.</p>
                 <div class="flex space-x-6">
-                    <a href="#" class="text-gray-500 hover:text-gray-400">
+                <a href="#" class="text-black-500 hover:text-black-400">
                         <span class="sr-only">Facebook</span>
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
@@ -16,7 +16,7 @@
                                 clip-rule="evenodd" />
                         </svg>
                     </a>
-                    <a href="#" class="text-gray-500 hover:text-gray-400">
+                    <a href="#" class="text-black-500 hover:text-black-400">
                         <span class="sr-only">Instagram</span>
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
@@ -24,14 +24,14 @@
                                 clip-rule="evenodd" />
                         </svg>
                     </a>
-                    <a href="#" class="text-gray-500 hover:text-gray-400">
+                    <a href="#" class="text-black-500 hover:text-black-400">
                         <span class="sr-only">Twitter</span>
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path
                                 d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                         </svg>
                     </a>
-                    <a href="#" class="text-gray-500 hover:text-gray-400">
+                    <a href="#" class="text-black-500 hover:text-black-400">
                         <span class="sr-only">GitHub</span>
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
@@ -39,7 +39,7 @@
                                 clip-rule="evenodd" />
                         </svg>
                     </a>
-                    <a href="#" class="text-gray-500 hover:text-gray-400">
+                    <a href="#" class="text-black-500 hover:text-black-400">
                         <span class="sr-only">YouTube</span>
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
@@ -52,37 +52,37 @@
             <div class="grid grid-cols-2 gap-8 mt-16 xl:col-span-2 xl:mt-0">
                 <div class="md:grid md:grid-cols-2 md:gap-8">
                     <div>
-                        <h3 class="text-sm font-semibold leading-6 text-white">Solutions</h3>
+                        <h3 class="text-sm font-semibold leading-6 text-black">Solutions</h3>
                         <ul role="list" class="mt-6 space-y-4">
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Marketing</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Marketing</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Analytics</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Analytics</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Commerce</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Commerce</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Insights</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Insights</a>
                             </li>
                         </ul>
                     </div>
                     <div class="mt-10 md:mt-0">
-                        <h3 class="text-sm font-semibold leading-6 text-white">Support</h3>
+                        <h3 class="text-sm font-semibold leading-6 text-black">Support</h3>
                         <ul role="list" class="mt-6 space-y-4">
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Pricing</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Pricing</a>
                             </li>
                             <li>
                                 <a href="#"
-                                    class="text-sm leading-6 text-gray-300 hover:text-white">Documentation</a>
+                                    class="text-sm leading-6 text-black-300 hover:text-black">Documentation</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Guides</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Guides</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">API
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">API
                                     Status</a>
                             </li>
                         </ul>
@@ -90,36 +90,36 @@
                 </div>
                 <div class="md:grid md:grid-cols-2 md:gap-8">
                     <div>
-                        <h3 class="text-sm font-semibold leading-6 text-white">Company</h3>
+                        <h3 class="text-sm font-semibold leading-6 text-black">Company</h3>
                         <ul role="list" class="mt-6 space-y-4">
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">About</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">About</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Blog</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Blog</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Jobs</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Jobs</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Press</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Press</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Partners</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Partners</a>
                             </li>
                         </ul>
                     </div>
                     <div class="mt-10 md:mt-0">
-                        <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
+                        <h3 class="text-sm font-semibold leading-6 text-black">Legal</h3>
                         <ul role="list" class="mt-6 space-y-4">
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Claim</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Claim</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Privacy</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Privacy</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Terms</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Terms</a>
                             </li>
                         </ul>
                     </div>
@@ -127,7 +127,7 @@
             </div>
         </div>
         <div class="pt-8 mt-16 border-t border-white/10 sm:mt-20 lg:mt-24">
-            <p class="text-xs leading-5 text-gray-400">&copy; 2020 Your Company, Inc. All rights reserved.
+            <p class="text-xs leading-5 text-black-400">&copy; 2020 Your Company, Inc. All rights reserved.
             </p>
         </div>
     </div>

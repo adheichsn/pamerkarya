@@ -21,7 +21,7 @@
 
     {{-- Tailwind CSS --}}
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <title>VR Lab - SMK | {{ $title }} </title>
+    <title>PamerKarya | {{ $title }} </title>
 </head>
 
 <body class="h-full overflow-x-hidden font-montserrat">
