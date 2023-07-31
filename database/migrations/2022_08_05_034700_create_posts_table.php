@@ -24,7 +24,7 @@ class CreatePostsTable extends Migration
             $table->string('image4')->nullable();
             $table->string('video')->nullable();
             $table->string('slogan');
-            $table->text('except');
+            $table->text('excerpt');
             $table->string('slug')->unique();
             $table->text('body');
             $table->timestamp('published_at')->nullable();
