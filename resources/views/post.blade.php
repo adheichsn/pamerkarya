@@ -2,7 +2,7 @@
 
 @section('container')
     @include('partials.navbar')
-    <section id="post" class="flex justify-center text-white">
+    <section id="post" class="flex justify-center text-white bg-white">
         {{-- <div class="max-w-2xl px-4 py-24 mx-auto sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
             <div class="grid items-start grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2">
                 <div>
@@ -20,7 +20,7 @@
                 <div>
                     <div class="pb-10 border-b border-gray-200">
                         <div class="flex flex-row items-center">
-                            <h2 class="font-medium text-gray-400">
+                            <h2 class="font-medium text-black-400">
                                 by <a href="/blog?author={{ $post->user->username }}">{{ $post->user->name }}</a>
                             </h2>
                             <a class="rounded-full bg-[#06E3FF] mx-5 px-3 py-1.5 font-medium text-black hover:bg-slate-600"
@@ -60,9 +60,9 @@
             <div class="pt-14">
                 <div
                     class="flex flex-col items-center justify-center px-6 mx-auto mb-5 space-y-5 lg:mb-0 max-w-7xl lg:px-20 lg:py-10">
-                    <h1 class="text-xl font-semibold text-center md:text-4xl">{{ $post->title }}</h1>
+                    <h1 class="text-xl font-semibold text-center text-black md:text-4xl">{{ $post->title }}</h1>
                     <div class="flex flex-row items-center">
-                        <h2 class="font-medium text-gray-400">
+                        <h2 class="font-medium text-black">
                             by <a href="/blog?author={{ $post->user->username }}">{{ $post->user->name }}</a>
                         </h2>
                         <a class="rounded-full bg-[#06E3FF] mx-5 px-3 py-1.5 font-medium text-black hover:bg-slate-600"
@@ -73,13 +73,13 @@
                         <script src="{{ asset('js/app.js') }}"></script>
                     </head>
                     <div class="flex flex-row items-center">
-                        <div class="flex flex-row items-center">
-                            <span class="material-symbols-outlined">visibility</span>
-                            <div class="px-2">{{ $post->views }}</div>
+                        <div class="flex flex-row items-center text-black">
+                            <span class="material-symbols-outlined" style="color: black">visibility</span>
+                            <div class="px-2 font-medium">{{ $post->views }}</div>
                         </div>
                         <div class="flex flex-row items-center">
                             <button id="copyLinkBtn">
-                                <span class="px-5 material-symbols-outlined">share</span>
+                                <span class="px-5 material-symbols-outlined" style="color: black">share</span>
                             </button>
                             <script>
                                 // Function to copy the text to clipboard
@@ -92,7 +92,6 @@
                                     document.execCommand('copy');
                                     document.body.removeChild(textarea);
                                 }
-
                                 // Get the current page URL
                                 const copyLinkBtn = document.getElementById('copyLinkBtn');
                                 const currentUrl = window.location.href;
@@ -115,7 +114,7 @@
                 @endif
                 <div class="px-5 py-4 space-y-5 lg:space-y-20 lg:py-20 lg:px-24">
 
-                    <p class="max-w-2xl text-base text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    <p class="max-w-2xl text-base text-black">Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit.
                         Sed aliquet
                         eros
@@ -137,7 +136,7 @@
                         </div>
                     </div>
                     <div class="flex flex-row flex-wrap items-start">
-                        <div class="flex flex-col w-full pr-5 lg:w-1/2">
+                        <div class="flex flex-col w-full pr-5 text-black lg:w-1/2">
                             <h1 class="mb-10 text-4xl font-medium lg:mb-16">{{ $post->slogan }}</h1>
                             <p class="text-base w-full xl:w-[480px] font-normal">{!! $post->body !!}</p>
                         </div>

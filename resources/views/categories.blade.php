@@ -2,7 +2,7 @@
 
 @section('container')
     @include('partials.navbar')
-    <section id="category" class="flex justify-center text-white">
+    <section id="category" class="flex justify-center text-black bg-white">
         <div class="container">
             <div class="pt-14">
                 <div class="px-6 mx-auto max-w-7xl lg:px-20 lg:py-10">
@@ -14,7 +14,7 @@
                         class="grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-16 auto-rows-fr sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                         @foreach ($categories as $category)
                             <article
-                                class="relative flex flex-col justify-end px-8 pb-8 overflow-hidden bg-gray-900 isolate rounded-2xl pt-80 sm:pt-48 lg:pt-80">
+                                class="relative flex flex-col justify-end px-8 pb-8 overflow-hidden bg-gray-900 shadow-2xl isolate rounded-2xl pt-80 sm:pt-48 lg:pt-80">
                                 <img src="https://source.unsplash.com/1200x400?{{ $category->name }}" alt=""
                                     class="absolute inset-0 object-cover w-full h-full -z-10 aspect-[16/9]">
                                 <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
