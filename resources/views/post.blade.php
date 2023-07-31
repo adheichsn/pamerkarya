@@ -72,14 +72,14 @@
                         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
                         <script src="{{ asset('js/app.js') }}"></script>
                     </head>
-                    <div class="flex flex-row items-center">
+                    <div class="flex flex-row items-center justify-center h-screen">
                         <div class="flex flex-row items-center text-black">
                             <span class="material-symbols-outlined" style="color: black">visibility</span>
                             <div class="px-2 font-medium">{{ $post->views }}</div>
                         </div>
-                        <div class="flex flex-row items-center">
+                        <div class="flex flex-row items-center justify-center h-screen">
                             <button id="copyLinkBtn">
-                                <span class="px-5 material-symbols-outlined" style="color: black">share</span>
+                                <span class="px-5 mt-1 material-symbols-outlined" style="color: black">share</span>
                             </button>
                             <script>
                                 // Function to copy the text to clipboard
