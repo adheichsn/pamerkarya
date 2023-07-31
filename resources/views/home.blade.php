@@ -150,6 +150,9 @@
         </div>
 
         <!-- Product section -->
+        <head>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        </head>
         <div class="pt-20 sm:pt-28">
             <div class="px-6 mx-auto max-w-7xl lg:px-8">
                 <div class="max-w-2xl mx-auto text-center" data-aos="fade-up" data-aos-duration="500"
@@ -177,9 +180,14 @@
                                 </div>
                                 <div class="w-full">
                                     <div class="flex items-center mt-8 text-xs gap-x-4">
-                                        <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
+                                        <time datetime="2020-03-16" class="text-gray-500">{{ $post->created_at->format('d F Y') }}</time>
                                         <a href="blog?category={{ $post->category->slug }}"
                                             class="relative z-10 rounded-full bg-[#06E3FF] px-3 py-1.5 font-medium text-black hover:bg-slate-600 hover:text-black transition duration-300 ease-in-out">{{ $post->category->name }}</a>
+                                        <div class="flex flex-row items-center ml-auto">
+                                            <span class="material-symbols-outlined">visibility</span>
+                                            <div class="px-2">{{ $post->views }}</div>
+                                        </div>
+                                            <!-- <div class="ml-auto">{{ $post->views }}</div> -->
                                     </div>
                                     <div class="relative group">
                                         <h3
