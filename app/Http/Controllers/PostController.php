@@ -33,22 +33,23 @@ class PostController extends Controller
 
     public function show(Post $post)
     {
-        // $post->increment('views');
-        // Get the user's IP address
-        $userIp = Request::ip();
+        // // $post->increment('views');
+        // // Get the user's IP address
+        // $userIp = Request::ip();
 
-        // Generate a unique key for the post and the user's IP
-        $viewedKey = 'viewed_post_' . $post->id . '_' . $userIp;
+        // // Generate a unique key for the post and the user's IP
+        // $viewedKey = 'viewed_post_' . $post->id . '_' . $userIp;
 
-        // Check if the post has already been viewed from this IP in the current session
-        if (!Session::has($viewedKey)) {
-            // Increment the views count since it's a new view from this IP
-            $post->increment('views');
+        // // Check if the post has already been viewed from this IP in the current session
+        // if (!Session::has($viewedKey)) {
+        //     // Increment the views count since it's a new view from this IP
+        //     $post->increment('views');
 
-            // Set the flag in the session to prevent multiple views from this IP
-            Session::put($viewedKey, true);
-        }
+        //     // Set the flag in the session to prevent multiple views from this IP
+        //     Session::put($viewedKey, true);
+        // }
 
+        $post->increment('views');
         return view('post', [
             "title" => "single post",
             "active" => "posts",

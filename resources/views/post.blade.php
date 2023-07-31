@@ -70,7 +70,7 @@
                     </div>
                     <head>
                         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-                        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+                        <script src="{{ asset('js/app.js') }}"></script>
                     </head>
                     <div class="flex flex-row items-center">
                         <div class="flex flex-row items-center">
@@ -78,7 +78,31 @@
                             <div class="px-2">{{ $post->views }}</div>
                         </div>
                         <div class="flex flex-row items-center">
-                            <span class="px-5 material-symbols-outlined">share</span>
+                            <button id="copyLinkBtn">
+                                <span class="px-5 material-symbols-outlined">share</span>
+                            </button>
+                            <script>
+                                // Function to copy the text to clipboard
+                                function copyToClipboard(text) {
+                                    const textarea = document.createElement('textarea');
+                                    textarea.value = text;
+                                    textarea.style.position = 'fixed'; // To prevent scrolling to bottom when adding textarea to body
+                                    document.body.appendChild(textarea);
+                                    textarea.select();
+                                    document.execCommand('copy');
+                                    document.body.removeChild(textarea);
+                                }
+
+                                // Get the current page URL
+                                const copyLinkBtn = document.getElementById('copyLinkBtn');
+                                const currentUrl = window.location.href;
+
+                                // Add event listener to the "Copy Link" button
+                                copyLinkBtn.addEventListener('click', function () {
+                                    copyToClipboard(currentUrl);
+                                    alert('Link copied to clipboard!');
+                                });
+                            </script>
                         </div>
                     </div>
                 </div>

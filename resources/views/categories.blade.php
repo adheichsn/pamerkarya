@@ -26,7 +26,7 @@
                                     </a>
                                 </h3>
                             </article>
-                            <div class="flex items-start">
+                            <!-- <div class="flex items-start">
                                 <div class="w-full rounded-lg">
                                     <img src="https://source.unsplash.com/1200x400?{{ $category->name }}"
                                         class="aspect-[16/9] w-full bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
@@ -40,7 +40,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         @endforeach
                     </div>
                 </div>
