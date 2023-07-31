@@ -13,6 +13,7 @@ class Post extends Model
 
     protected $guarded = ['id'];
     protected $with = ['category', 'user'];
+    protected $fillable = ['views'];
 
     public function scopeFilter($query, array $filters)
     {

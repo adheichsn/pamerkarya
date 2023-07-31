@@ -68,6 +68,19 @@
                         <a class="rounded-full bg-[#06E3FF] mx-5 px-3 py-1.5 font-medium text-black hover:bg-slate-600"
                             href="/blog?category={{ $post->category->slug }}">{{ $post->category->name }}</a>
                     </div>
+                    <head>
+                        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+                        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+                    </head>
+                    <div class="flex flex-row items-center">
+                        <div class="flex flex-row items-center">
+                            <span class="material-symbols-outlined">visibility</span>
+                            <div class="px-2">{{ $post->views }}</div>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <span class="px-5 material-symbols-outlined">share</span>
+                        </div>
+                    </div>
                 </div>
                 @if ($post->image)
                     <img src="{{ asset('storage/' . $post->image) }}" class="object-cover aspect-[3/1]"

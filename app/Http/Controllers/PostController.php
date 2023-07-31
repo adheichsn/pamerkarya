@@ -32,10 +32,13 @@ class PostController extends Controller
 
     public function show(Post $post)
     {
+        $post->increment('views');
+
         return view('post', [
             "title" => "single post",
             "active" => "posts",
             "post" => $post
         ]);
+        
     }
 }
