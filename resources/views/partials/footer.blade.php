@@ -52,43 +52,33 @@
             <div class="grid grid-cols-2 gap-8 mt-16 xl:col-span-2 xl:mt-0">
                 <div class="md:grid md:grid-cols-2 md:gap-8">
                     <div>
-                        <h3 class="text-sm font-semibold leading-6 text-black">Solutions</h3>
+                        <h3 class="text-sm font-semibold leading-6 text-black">Company</h3>
                         <ul role="list" class="mt-6 space-y-4">
                             <li>
-                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Marketing</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">About</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Analytics</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Commerce</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Insights</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Galeri</a>
                             </li>
                         </ul>
                     </div>
                     <div class="mt-10 md:mt-0">
-                        <h3 class="text-sm font-semibold leading-6 text-black">Support</h3>
+                        <h3 class="text-sm font-semibold leading-6 text-black">Categories</h3>
                         <ul role="list" class="mt-6 space-y-4">
                             <li>
-                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Pricing</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Virtual Reality</a>
                             </li>
                             <li>
                                 <a href="#"
-                                    class="text-sm leading-6 text-black-300 hover:text-black">Documentation</a>
+                                    class="text-sm leading-6 text-black-300 hover:text-black">Internet of Things</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Guides</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">API
-                                    Status</a>
+                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Metaverse</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="md:grid md:grid-cols-2 md:gap-8">
+                <!-- <div class="md:grid md:grid-cols-2 md:gap-8">
                     <div>
                         <h3 class="text-sm font-semibold leading-6 text-black">Company</h3>
                         <ul role="list" class="mt-6 space-y-4">
@@ -123,7 +113,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="pt-8 mt-16 border-t border-white/10 sm:mt-20 lg:mt-24">

@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\CommentController;
 use Facade\FlareClient\View;
 
 /*
@@ -89,4 +90,12 @@ route::resource('/dashboard/categories', AdminCategoryController::class)->except
 Route::get('/generate', function () {
     \Illuminate\Support\Facades\Artisan::call('storage:link');
     echo 'ok';
+});
+
+// Route::post('/comments', 'CommentController@store')->name('comments.store');
+
+// routes/web.php
+
+Route::middleware('auth')->group(function () {
+    Route::post('/comments', [CommentController::class, 'store'])->name('comments.store');
 });

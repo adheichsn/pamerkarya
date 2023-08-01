@@ -68,7 +68,7 @@
                 <div class="self-center w-full px-10 lg:w-1/2" data-aos="fade-right" data-aos-duration="500"
                     data-aos-easing="ease-in-out">
                     {{-- <h2 class="text-2xl font-semibold leading-relaxed text-white">Welcome to</h2> --}}
-                    <h1 class="mb-5 text-5xl font-bold text-black">Buat Portofoliomu dan Temukan Potensimu</h1>
+                    <h1 class="mb-5 text-5xl font-bold text-black sm:text-2xl">Buat Portofoliomu dan Temukan Potensimu</h1>
                     <p class="mb-5 font-medium leading-relaxed text-black">Selamat Datang di masa depan kreativitas! 
                         Temukan bakat-bakat hebat yang memukau dari berbagai bidang. Mari terpesona oleh bakat-bakat brilian yang menciptakan karya mengagumkan. 
                         Temukan potensi karyamu!</p>
@@ -182,7 +182,7 @@
                                     <div class="flex items-center mt-8 text-xs gap-x-4">
                                         <time datetime="2020-03-16" class="text-gray-500">{{ $post->created_at->format('d F Y') }}</time>
                                         <a href="blog?category={{ $post->category->slug }}"
-                                            class="relative z-10 rounded-full bg-[#06E3FF] px-3 py-1.5 font-medium text-black hover:bg-slate-600 hover:text-black transition duration-300 ease-in-out">{{ $post->category->name }}</a>
+                                            class="relative z-10 rounded-full bg-[#06E3FF] px-3 py-1.5 font-medium text-black hover:bg-slate-600 hover:text-white transition duration-300 ease-in-out">{{ $post->category->name }}</a>
                                         <div class="flex flex-row items-center ml-auto">
                                             <span class="material-symbols-outlined">visibility</span>
                                             <div class="px-2">{{ $post->views }}</div>

@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav text-black">
+            <ul class="text-black navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page"
                         href="/">Home</a>
@@ -26,7 +26,7 @@
             <ul class="navbar-nav ms-auto">
                 @auth
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="text-black nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Welcome, {{ auth()->user()->name }}
                         </a>
@@ -64,10 +64,10 @@
                 </a>
             </div>
             <div class="flex items-center px-4">
-                <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
-                    <span class="transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
-                    <span class="transition duration-300 ease-in-out hamburger-line"></span>
-                    <span class="transition duration-300 ease-in-out origin-bottom-left hamburger-line"></span>
+                <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden ">
+                    <span class="text-black transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
+                    <span class="text-black transition duration-300 ease-in-out hamburger-line"></span>
+                    <span class="text-black transition duration-300 ease-in-out origin-bottom-left hamburger-line"></span>
                 </button>
 
                 <nav id="nav-menu"
@@ -79,7 +79,7 @@
                         </li>
                         <li class="group">
                             <a href="/product"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('product') ? 'text-black' : 'text-slate-400' }}">Product</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('product') ? 'text-black' : 'text-slate-400' }}">Galeri</a>
                         </li>
                         <li class="group">
                             <a href="/about"
