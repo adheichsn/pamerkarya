@@ -67,7 +67,6 @@
             <div class="flex flex-wrap px-5 py-10 lg:px-5 lg:py-0">
                 <div class="self-center w-full px-10 lg:w-1/2" data-aos="fade-right" data-aos-duration="500"
                     data-aos-easing="ease-in-out">
-                    {{-- <h2 class="text-2xl font-semibold leading-relaxed text-white">Welcome to</h2> --}}
                     <h1 class="mb-5 text-5xl font-bold text-black sm:text-2xl">Buat Portofoliomu dan Temukan Potensimu!</h1>
                     <p class="mb-5 font-medium leading-relaxed text-black">Selamat Datang di masa depan kreativitas! 
                         Temukan bakat-bakat hebat yang memukau dari berbagai bidang. Mari terpesona oleh bakat-bakat brilian yang menciptakan karya mengagumkan. 
