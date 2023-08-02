@@ -87,7 +87,7 @@
                         </li>
                         <li class="group">
                             <a href="/categories"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('categories') ? 'text-black' : 'text-slate-400' }}">Categories</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('categories') ? 'text-black' : 'text-slate-400' }}">Kategori</a>
                         </li>
                         @auth
                             <li class="relative group">
