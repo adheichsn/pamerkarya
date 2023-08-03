@@ -92,7 +92,7 @@
                         @auth
                             <li class="relative group">
                                 <button type="button" id="dropdown"
-                                    class="inline-flex w-full justify-start gap-x-1.5 rounded-md bg-transparent px-8 py-2 text-sm font-semibold text-white shadow-sm transition duration-300 ease-in-out hover:bg-gray-600 hover:bg-opacity-50"
+                                    class="inline-flex w-full justify-start gap-x-1.5 rounded-md bg-transparent px-8 py-2 text-sm font-semibold text-black shadow-sm transition duration-300 ease-in-out hover:bg-gray-600 hover:bg-opacity-50"
                                     id="menu-button" aria-expanded="true" aria-haspopup="true">
                                     Welcome, {{ auth()->user()->name }}
                                     <svg class="w-5 h-5 -mr-1 text-gray-400" viewBox="0 0 20 20" fill="currentColor"

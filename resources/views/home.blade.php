@@ -94,27 +94,27 @@
         <!-- Benefit section (2) -->
         <div class="pt-20 sm:pt-28">
             <div class="px-6 mx-auto max-w-7xl lg:px-2">
-                <h2 class="py-5 text-5xl font-bold text-left text-black sm:text-5xl md:text-3xl lg:text-2xl xl:text-xl 2xl:text-lg" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">One platform,</h2>
-                <h2 class="mb-5 text-5xl font-bold leading-loose text-left text-black sm:text-5xl md:text-3xl lg:text-2xl xl:text-xl 2xl:text-lg" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">Infinite <span style="color: #06E3FF;">posibilities</span></h2>
+                <h2 class="py-5 text-5xl font-bold text-left text-black sm:text-5xl md:text-3xl lg:text-2xl xl:text-xl 2xl:text-lg" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">Gaya Tinggi</h2>
+                <h2 class="mb-5 text-5xl font-bold leading-loose text-left text-black sm:text-5xl md:text-3xl lg:text-2xl xl:text-xl 2xl:text-lg" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">Untuk Portofolio yang <span style="color: #06E3FF;">Luar Biasa</span></h2>
                 <div class="grid grid-cols-1 gap-8 py-10 sm:grid-cols-2 lg:grid-cols-3">
                     <div class="pt-4 pb-8 pr-6 border-t-2 border-indigo-500/100" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
-                        <h2 class="text-xl font-semibold">Mengembangkan Jaringan Kebidangan Anda</h2>
+                        <h2 class="text-xl font-semibold">Jaringan Kebidangan Luas</h2>
                         <p class="mt-5 leading-8 text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Memberikan Cara Cepat dalam membangun Koneksi yang menguntungkan serta memberikan berbagai peluang industri.
                         </p>
                     </div>
 
                     <div class="pt-4 pb-8 pr-6 border-t-2 border-black rounded-lg shadow-md" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
-                        <h2 class="text-xl font-semibold">Card 2</h2>
+                        <h2 class="text-xl font-semibold">Inspirasi Baru untuk Kreativitas Anda</h2>
                         <p class="mt-5 leading-8 text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Membuka Pintu ke Ide-ide Brilian dalam Kebidangan dengan memperkenalkan hasil karya karya yang terbaik.
                         </p>
                     </div>
 
                     <div class="pt-4 pb-8 pr-6 border-t-2 border-black rounded-lg shadow-md" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
-                        <h2 class="text-xl font-semibold">Card 3</h2>
+                        <h2 class="text-xl font-semibold">Mengoptimalkan Potensi Income</h2>
                         <p class="mt-5 leading-8 text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Membuka peluang baru karyamu untuk di lihat oleh indusrti kebidanganmu sehingga dapat memperoleh potensi kerja sama.
                         </p>
                     </div>
                 </div>
@@ -369,7 +369,7 @@
                                     name</label>
                                 <div class="mt-2.5">
                                     <input type="text" name="first-name" id="first-name" autocomplete="given-name"
-                                        class="block w-full rounded-md border-0 bg-gray/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-black focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
+                                        class="block w-full rounded-md border-1 bg-black/5 px-3.5 py-2 text-black ring-inset ring-black focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
                                 </div>
                             </div>
                             <div>
@@ -377,7 +377,7 @@
                                     name</label>
                                 <div class="mt-2.5">
                                     <input type="text" name="last-name" id="last-name" autocomplete="family-name"
-                                        class="block w-full rounded-md border-0 bg-gray/5 px-3.5 py-2 text-gray shadow-sm ring-1 ring-inset ring-gray/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
+                                        class="block w-full rounded-md border-1 bg-black/5 px-3.5 py-2 text-gray ring-inset ring-gray/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
                                 </div>
                             </div>
                             <div class="sm:col-span-2">
@@ -385,7 +385,7 @@
                                     class="block text-sm font-semibold leading-6 text-black">Email</label>
                                 <div class="mt-2.5">
                                     <input type="email" name="email" id="email" autocomplete="email"
-                                        class="block w-full rounded-md border-0 bg-black/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-black/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
+                                        class="block w-full rounded-md border-1 bg-black/5 px-3.5 py-2 text-black ring-inset ring-black/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
                                 </div>
                             </div>
                             <div class="sm:col-span-2">
@@ -393,7 +393,7 @@
                                     number</label>
                                 <div class="mt-2.5">
                                     <input type="tel" name="phone-number" id="phone-number" autocomplete="tel"
-                                        class="block w-full rounded-md border-0 bg-black/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-black/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
+                                        class="block w-full rounded-md border-1 bg-black/5 px-3.5 py-2 text-black ring-inset ring-black/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6">
                                 </div>
                             </div>
                             <div class="sm:col-span-2">
@@ -401,7 +401,7 @@
                                     class="block text-sm font-semibold leading-6 text-black">Message</label>
                                 <div class="mt-2.5">
                                     <textarea name="message" id="message" rows="4"
-                                        class="block w-full rounded-md border-0 bg-black/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-black/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"></textarea>
+                                        class="block w-full rounded-md border-1 bg-black/5 px-3.5 py-2 text-black ring-inset ring-black/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"></textarea>
                                 </div>
                             </div>
                         </div>
