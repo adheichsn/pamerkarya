@@ -91,28 +91,58 @@
             </div>
         </div>
 
+        <!-- Benefit section (2) -->
+        <div class="pt-20 sm:pt-28">
+            <div class="px-6 mx-auto max-w-7xl lg:px-2">
+                <h2 class="py-5 text-5xl font-bold text-left text-black sm:text-5xl md:text-3xl lg:text-2xl xl:text-xl 2xl:text-lg" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">One platform,</h2>
+                <h2 class="mb-5 text-5xl font-bold leading-loose text-left text-black sm:text-5xl md:text-3xl lg:text-2xl xl:text-xl 2xl:text-lg" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">Infinite <span style="color: #06E3FF;">posibilities</span></h2>
+                <div class="grid grid-cols-1 gap-8 py-10 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="pt-4 pb-8 pr-6 border-t-2 border-indigo-500/100" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
+                        <h2 class="text-xl font-semibold">Mengembangkan Jaringan Kebidangan Anda</h2>
+                        <p class="mt-5 leading-8 text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
 
-        <!-- Image section -->
+                    <div class="pt-4 pb-8 pr-6 border-t-2 border-black rounded-lg shadow-md" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
+                        <h2 class="text-xl font-semibold">Card 2</h2>
+                        <p class="mt-5 leading-8 text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+
+                    <div class="pt-4 pb-8 pr-6 border-t-2 border-black rounded-lg shadow-md" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
+                        <h2 class="text-xl font-semibold">Card 3</h2>
+                        <p class="mt-5 leading-8 text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image section (3) -->
         {{-- <div class="px-8 mt-32 sm:mt-40 xl:mx-auto xl:max-w-9xl">
             <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2894&q=80"
                 alt="" class="aspect-[9/4] w-full object-cover rounded-3xl">
         </div> --}}
         <div class="w-full px-8 py-10 mx-auto text-black lg:px-36 lg:py-28">
-        <h2 class="py-5 mb-5 text-5xl font-bold tracking-tight text-center text-black sm:text-4xl">Satu Platform Untuk Semua <span style="color: #06E3FF;">Karya</span></h2>
+        <h2 class="py-5 mb-5 text-5xl font-bold tracking-tight text-center text-black sm:text-4xl" data-aos="fade-up" data-aos-duration="500"
+                    data-aos-easing="ease-in-out">Satu Platform Untuk Semua <span style="color: #06E3FF;">Karya</span></h2>
             <div class="max-w-2xl mx-auto lg:max-w-none">
                 <div class="text-center">
                     <div data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">
-                        <p class="custom-line-spacing">VR Lab adalah inovator dalam teknologi virtual reality (VR). tujuan kami untuk
-                            menciptakan pengalaman VR yang memukau dan menarik perhatian dengan inovasi yang dapat
-                            di garap sesuai dengan kebutuhan penguna. Dengan tim yang terdiri dari desainer, IT, dan Game dev , Divisi VR Lab
-                            mampu menciptakan dunia virtual yang menakjubkan. Mereka menggabungkan grafis
-                            berkualitas tinggi, suara realistis, dan kontrol yang responsif untuk menghadirkan
-                            pengalaman yang tampak nyata.</p>
+                        <p class="text-xl custom-line-spacing sm:text-lg md:text-lg">
+                            PamerKarya mempersembahkan Karya kreatif dan inovatif yang dihasilkan oleh siswa-siswa 
+                            kami yang berbakat dan mempunyai ide ide yang luar biasa. Website ini dirancang sebagai 
+                            wadah untuk memamerkan kemampuan, inspirasi, dan dedikasi para kreator muda. Melalui tata 
+                            letak yang menarik dan navigasi yang intuitif, kami mengundang Anda untuk menjelajahi 
+                            karya-karya yang telah dihasilkan dan menemukan karya seni yang memikat, serta karya seni 
+                            yang penuh ekspresi.
+                        </p>
                         <style>
                         .custom-line-spacing {
                             line-height: 2.5;
-                            font-size: 20px;
-                            margin-top: 24px;
                         }
                         </style>
                     </div>
@@ -233,7 +263,31 @@
             </div>
         </div>
 
-
+        <!-- Call To Action section -->
+        <div class="pt-20 sm:pt-28">
+            <div class="px-6 mx-auto max-w-7xl lg:px-2">
+                <div class="container px-4 mx-auto rounded py-9 md:py-12 md:px-6" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <div class="flex flex-col justify-center space-y-4 items-strech md:flex-row md:space-y-0 md:space-x-6 lg:space-x-8">
+                        <div class="flex flex-col justify-between px-6 py-6 rounded-lg md:flex-row items-strech bg-gray-50 dark:bg-gray-800 md:py-12 lg:px-12 md:w-8/12 lg:w-7/12 xl:w-8/12 2xl:w-9/12">
+                            <div class="flex flex-col justify-center md:w-1/2">
+                                <h1 class="mt-10 text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white">Buat Portfoliomu Sekarang!</h1>
+                                <h2 class="py-5 text-lg text-gray-800 lg:text-4xl dark:text-white">Mari temukan kreativitas tak terbatas! Temukan proyek-proyek inspiratif dari berbagai bidang yang memukau dan mewujudkan ide-ide luar biasa.</h2>
+                            </div>
+                            <div class="flex justify-center py-10 mt-8 md:w-1/2 md:mt-0 md:justify-end">
+                                <!-- <img src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png" alt="" class="" /> -->
+                                <a href="/about">
+                                    <button type="button"
+                                        class="inline-flex items-center rounded-full bg-[#06E3FF] px-[78px] py-[21px] text-lg font-semibold text-[#2B2B2B] shadow-sm hover:bg-slate-500 hover:text-white transition duration-300 ease-in-out">
+                                        <h1>Daftar</h1>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
         <!-- Contact Person section -->
         <div class="relative isolate">
             <div class="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2">
