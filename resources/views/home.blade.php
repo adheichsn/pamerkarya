@@ -263,24 +263,33 @@
             </div>
         </div>
 
+        <!-- Partners section -->
+        
+
         <!-- Call To Action section -->
-        <div class="pt-20 sm:pt-28">
-            <div class="px-6 mx-auto max-w-7xl lg:px-2">
-                <div class="container px-4 mx-auto rounded py-9 md:py-12 md:px-6" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
-                    <div class="flex flex-col justify-center space-y-4 items-strech md:flex-row md:space-y-0 md:space-x-6 lg:space-x-8">
-                        <div class="flex flex-col justify-between px-6 py-6 rounded-lg md:flex-row items-strech bg-gray-50 dark:bg-gray-800 md:py-12 lg:px-12 md:w-8/12 lg:w-7/12 xl:w-8/12 2xl:w-9/12">
+        <div class="pt-20 shadow-2xl sm:pt-28">
+            <div class="px-6 mx-auto shadow-2xl max-w-7xl lg:px-2">
+                <div class="container px-4 mx-auto rounded shadow-2xl py-9 md:py-12 md:px-6" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <div class="flex flex-col justify-center space-y-4 shadow-2xl items-strech md:flex-row md:space-y-0 md:space-x-6 lg:space-x-8">
+                        <div class="flex flex-row justify-between gap-10 px-10 py-6 rounded-lg shadow-2xl md:flex-row items-strech bg-gray-50 dark:bg-gray-800 md:py-12 lg:px-12 md:w-8/12 lg:w-7/12 xl:w-8/12 2xl:w-9/12">
                             <div class="flex flex-col justify-center md:w-1/2">
                                 <h1 class="mt-10 text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white">Buat Portfoliomu Sekarang!</h1>
                                 <h2 class="py-5 text-lg text-gray-800 lg:text-4xl dark:text-white">Mari temukan kreativitas tak terbatas! Temukan proyek-proyek inspiratif dari berbagai bidang yang memukau dan mewujudkan ide-ide luar biasa.</h2>
+                                <div class="flex py-10 mt-8 md:w-1/2 md:mt-0 md:justify-end">
+                                    <!-- <img src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png" alt="" class="" /> -->
+                                    <a href="/about">
+                                        <button type="button"
+                                            class="inline-flex items-center rounded-full bg-[#06E3FF] px-[78px] py-[21px] text-lg font-semibold text-[#2B2B2B] shadow-sm hover:bg-slate-500 hover:text-white transition duration-300 ease-in-out">
+                                            <h1>Daftar</h1>
+                                        </button>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="flex justify-center py-10 mt-8 md:w-1/2 md:mt-0 md:justify-end">
-                                <!-- <img src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png" alt="" class="" /> -->
-                                <a href="/about">
-                                    <button type="button"
-                                        class="inline-flex items-center rounded-full bg-[#06E3FF] px-[78px] py-[21px] text-lg font-semibold text-[#2B2B2B] shadow-sm hover:bg-slate-500 hover:text-white transition duration-300 ease-in-out">
-                                        <h1>Daftar</h1>
-                                    </button>
-                                </a>
+                            <div class="w-full px-12 lg:w-1/2">
+                                <div class="mt-10 mr-10">
+                                    <!-- <img src="img/landingbg.png" class="max-w-full mx-auto" alt="VR Man"> -->
+                                    <img src="img/amusement.png" class="max-w-full mx-auto" alt="Collage img">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -291,7 +300,7 @@
         <!-- Contact Person section -->
         <div class="relative isolate">
             <div class="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2">
-                <div class="relative px-6 pt-10 pb-10 sm:pt-32 lg:static lg:px-8 lg:py-48">
+                <div class="relative px-6 pb-10 mt-10 sm:pt-24 lg:static lg:px-8 lg:py-48">
                     <div class="max-w-xl mx-auto lg:mx-0 lg:max-w-lg">
                         <div class="absolute inset-y-0 left-0 w-full overflow-hidden -z-10 ring-1 ring-white/5 lg:w-1/2">
                             {{-- <svg class="absolute inset-0 h-full w-full stroke-gray-700 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
@@ -361,7 +370,7 @@
                         </dl>
                     </div>
                 </div>
-                <form action="#" method="POST" class="px-6 pt-20 pb-24 sm:pb-32 lg:px-8 lg:py-48">
+                <form action="#" method="POST" class="px-6 pt-20 pb-24 mt-10 sm:pb-32 lg:px-8 lg:py-48">
                     <div class="max-w-xl mx-auto lg:mr-0 lg:max-w-lg">
                         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                             <div>
