@@ -348,10 +348,10 @@
                 <p class="text-gray-500 text-md">Mari temukan kreativitas tak terbatas! Temukan proyek-proyek inspiratif dari berbagai bidang yang memukau dan mewujudkan ide-ide luar biasa.</p>
 
                 <div class="cta-banner__btns">
-                    <a href="#0" class="cd-btn cd-btn--primary">Daftar 
+                    <a href="/register" class="cd-btn cd-btn--primary">Daftar 
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
                     </a>
-                    <a href="#0" class="cd-link cd-link--contrast-higher">Pelajari</a>
+                    <a href="/about" class="cd-link cd-link--contrast-higher">Pelajari</a>
                 </div>
                 </div>
             

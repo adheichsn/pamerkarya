@@ -83,7 +83,7 @@
                         </li>
                         <li class="group">
                             <a href="/about"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('about') ? 'text-black' : 'text-slate-400' }}">About</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('about') ? 'text-black' : 'text-slate-400' }}">Pelajari</a>
                         </li>
                         <li class="group">
                             <a href="/categories"

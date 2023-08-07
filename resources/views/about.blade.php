@@ -119,200 +119,169 @@
         <h2 class="py-5 mb-5 text-5xl font-bold tracking-tight text-center text-black sm:text-4xl" data-aos="fade-up" data-aos-duration="500"
             data-aos-easing="ease-in-out">Frequently Asked <span style="color: #06E3FF;">Questions</span></h2>
         </div>
-
-        <style media="screen">
-  @font-face {
-    font-family: 'Material Icons';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://rekrutmenbersama.fhcibumn.id/assets/frontend/fonts/google-material-icon.woff2) format('woff2');
-  }
-  .material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-    -moz-font-feature-settings: 'liga';
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .card-faq {
-    border: 2px solid rgb(200, 215, 238);
-    border-radius: 5px;
-    margin-bottom: 10px;
-    color: #0097b1;
-  }
-  .card-faq:hover {
-  	border: 2px solid rgb(12, 129, 149);
-  	color: #0c8195;
-  	background: #f9feff;
-  }
-  .card-faq-header{
-    padding: 1.3rem 1rem;
-  }
-  .collapse.show {
-  	display: block;
-  	padding-bottom: 2rem;
-  	border-top: solid 1px #ececec;
-  	color: black;
-  }
-  @media (min-width: 769px){
-    /* dekstop */
-    .search-panel{
-      width: 40%;
-    }
-  }
-  @media (max-width: 768px){
-    /* mobile */
-    .search-panel{
-      width: 100%;
-    }
-  }
-  .card-body *{
-    font-family: 'Rubik' !important;
-    font-size: 16px !important;
-    word-wrap: break-word !important;
-  }
-</style>
-
-
-<div class="col-md-12 custom-px-5" id="list_faq" style="z-index: 9;">
-  <div class="nav-tabs-horizontal py-4 custom-px-5">
-        <div class="card-faq" style="">
-      <div onclick="collapse_faq(11)" class="card-faq-header" data-toggle="collapse" data-target="#collapse11" id="heading11" style="cursor:pointer; background:white;">
-          <div class="row">
-            <div class="col-12" style="">
-              <b style="margin:0px">Bagaimana cara mengunggah portfolio saya?</b>
-              <i id="icon_collapse_11" style="cursor: pointer;float: right;" class="material-icons" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">keyboard_arrow_down</i>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Bagaimana cara mengunggah portfolio saya?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                Web Development broadly refers to the tasks associated with developing functional websites and applications for the Internet. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks.
+              </div>
             </div>
           </div>
-      </div>
-      <div id="collapse30" class="collapse" aria-labelledby="heading30" data-parent="#accordionExample" style="">
-        <div class="card-body">
-          <p style="text-align: justify; ">
-          <span style="font-size: 14px;">loejhfuhajdgjshrtkbjhegkjrh</span>
-          <br>
-      </p>
-      </div>
-      </div>
-    </div>
-      <div class="card-faq" style="">
-      <div onclick="collapse_faq(20)" class="card-faq-header" data-toggle="collapse" data-target="#collapse20" id="heading20" style="cursor:pointer; background:white;">
-          <div class="row">
-            <div class="col-12" style="">
-              <b style="margin:0px">Apakah ada batasan ukuran file untuk unggahan portfolio?</b>
-              <i id="icon_collapse_20" style="cursor: pointer;float: right;" class="material-icons" data-toggle="collapse" data-target="#collapse20" aria-expanded="false" aria-controls="collapse20">keyboard_arrow_down</i>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Apakah ada batasan ukuran file untuk unggahan portfolio?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                HTML, aka HyperText Markup Language, is the dominant markup language for creating websites and anything that can be viewed in a web browser.
+              </div>
             </div>
           </div>
-      </div>
-      {{--<div id="collapse20" class="collapse" aria-labelledby="heading20" data-parent="#accordionExample">
-        <div class="card-body">
-          <p style="text-align: justify; ">Hal ini bisa disebabkan karena adanya antrian di <i>email</i> karena banyaknya pelamar. Bisa juga terjadi karena kesalahan <i>input</i> alamat<i> email </i>(<i>typo</i>), alamat <i>email</i> yang di cek dengan yang didaftarkan berbeda, sehingga<i> email</i> tidak diterima. </p><p style="text-align: justify;">Apa yang bisa dilakukan:</p><ul><li style="text-align: justify;">Pastikan terlebih dahulu <i>email </i>yang didaftarkan tidak salah dalam penulisan</li><li style="text-align: justify;">Pastikan kembali sudah mengecek di seluruh<i> folder email </i>terdaftar, <i>inbox, </i><i>promotion, spam, junk,</i> dan <i>all mail.&nbsp;</i></li><li style="text-align: justify;">Pastikan&nbsp;<i>Mark as Not Spam</i>&nbsp;bagi email yang masuk ke folder&nbsp;<i>spam</i></li><li style="text-align: justify; ">Pastikan maksimum pengiriman <i>email</i> verifikasi adalah 1 x 24 jam setelah mendaftar di&nbsp;<i>website recruitment.</i></li></ul><p style="text-align: justify;"><span style="font-size: 1rem;">Bagaimana kalau sudah melebihi 1 x 24 jam belum juga mendapat <i>email </i>verifikasi ?</span><br></p><ul><li style="text-align: justify;">Pelamar dapat melakukan pendaftaran ulang (re-registrasi) dengan menggunakan ID KTP dan alamat <i>email</i> yang sama. Jangan sampai beda, karena sistem akan kembali mengirimkan <i>email</i> verifikasi ke email yang didaftarkan.</li><li style="text-align: justify;">Setelah melakukan pendaftaran ulang (re-registrasi), cek secara berkala seluruh folder <i>email, inbox, promotion</i>,&nbsp;<i>spam, junk, </i>dan <i>all mail</i>.</li></ul><p style="text-align: justify;">Jika masih mengalami kendala yang sama setelah 1x24 jam, silakan hubungi Helpdesk.<br></p><div style="text-align: justify;"><br></div>        </div>
-      </div>--}}
-    </div>
-      <div class="card-faq" style="">
-      <div onclick="collapse_faq(11)" class="card-faq-header" data-toggle="collapse" data-target="#collapse11" id="heading11" style="cursor:pointer; background:white;">
-          <div class="row">
-            <div class="col-12" style="">
-              <b style="margin:0px">Bagaimana cara mengunggah portfolio saya?</b>
-              <i id="icon_collapse_11" style="cursor: pointer;float: right;" class="material-icons" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">keyboard_arrow_down</i>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Bagaimana cara mengunggah portfolio saya?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <ul style="padding-left: 1rem;">
+                  <li>HTML, CSS, JavaScript</li>
+                  <li>Frameworks (CSS and JavaScript frameworks)</li>
+                  <li>Responsive Design</li>
+                  <li>Version Control/Git</li>
+                  <li>Testing/Debugging</li>
+                  <li>Browser Developer Tools</li>
+                  <li>Web Performance</li>
+                  <li>SEO (Search Engine Optimization)</li>
+                  <!-- <li>CSS Preprocessing</li> -->
+                  <li>Command Line</li>
+                  <li>CMS (Content Management System)</li>
+                </ul>
+              </div>
             </div>
           </div>
-      </div>
-      {{--<div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordionExample">
-        <div class="card-body">
-          Pelamar dapat klik tombol lupa <i>password</i> di halaman <i>login</i>. Kemudian reset password akan dikirimkan ke <i>email </i>yang didaftarkan.        </div>
-      </div>--}}
-    </div>
-      <div class="card-faq" style="">
-      <div onclick="collapse_faq(21)" class="card-faq-header" data-toggle="collapse" data-target="#collapse21" id="heading21" style="cursor:pointer; background:white;">
-          <div class="row">
-            <div class="col-12" style="">
-              <b style="margin:0px">Apakah saya dapat menghapus atau mengganti portfolio yang sudah saya unggah?</b>
-              <i id="icon_collapse_21" style="cursor: pointer;float: right;" class="material-icons" data-toggle="collapse" data-target="#collapse21" aria-expanded="false" aria-controls="collapse21">keyboard_arrow_down</i>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Apakah saya dapat menghapus atau mengganti portfolio yang sudah saya unggah?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                HTTP, aka HyperText Transfer Protocol, is the underlying protocol used by the World Wide Web and this protocol defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands.
+              </div>
             </div>
           </div>
-      </div>
-      {{--<div id="collapse21" class="collapse" aria-labelledby="heading21" data-parent="#accordionExample">
-        <div class="card-body">
-          <p style="text-align: justify; ">Kejadian seperti ini bisa terjadi karena proses penggantian <i>password </i>yang terputus, bisa disebabkan karena jaringan yang tidak stabil atau session untuk akses <i>website </i>telah berakhir. </p><p style="text-align: justify;">Pelamar dapat melakukan hal berikut:</p><ul><li style="text-align: justify; ">Pastikan telah melakukan “Lupa <i>Password</i>” dan memasukan <i>email</i> yang terdaftar di sistem.</li><li style="text-align: justify;">Cek <i>email</i> “<i>Reset Password</i>” di seluruh folder <i>email, inbox, spam,</i>&nbsp;<i>junk, </i>dan <i>all mail.</i></li><li style="text-align: justify;">Klik tombol “<i>Reset Password</i>” yang ada di <i>email.</i></li><li style="text-align: justify;">Masukkan <i>password</i> baru sesuai dengan ketentuan (minimum 8 karakter, gabungan angka, huruf kecil, serta huruf kapital) dan ulangi <i>password</i>.</li><li style="text-align: justify;">Klik “<i>Reset</i>” sampai muncul notifikasi “<i>Password</i> telah diubah”.</li><li style="text-align: justify;">Lakukan <i>login</i> menggunakan <i>email</i> dan <i>password</i> yang telah diubah.</li></ul><div style="text-align: justify;"><br></div>        </div>
-      </div>--}}
-    </div>
-      <div class="card-faq" style="">
-      <div onclick="collapse_faq(429)" class="card-faq-header" data-toggle="collapse" data-target="#collapse429" id="heading429" style="cursor:pointer; background:white;">
-          <div class="row">
-            <div class="col-12" style="">
-              <b style="margin:0px">Apakah portfolio saya akan secara otomatis tersedia untuk dilihat oleh orang lain setelah saya mengunggahnya?</b>
-              <i id="icon_collapse_429" style="cursor: pointer;float: right;" class="material-icons" data-toggle="collapse" data-target="#collapse429" aria-expanded="false" aria-controls="collapse429">keyboard_arrow_down</i>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Apakah portfolio saya akan secara otomatis tersedia untuk dilihat oleh orang lain setelah saya mengunggahnya?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                CORS, aka Cross-Origin Resource Sharing, is a mechanism that enables many resources (e.g. images, stylesheets, scripts, fonts) on a web page to be requested from another domain outside the domain from which the resource originated.
+              </div>
             </div>
           </div>
-      </div>
-      {{--<div id="collapse429" class="collapse" aria-labelledby="heading429" data-parent="#accordionExample">
-        <div class="card-body">
-          <p style="text-align: justify; ">Hal ini dapat disebabkan oleh 2 kondisi, yaitu <i>email</i> belum terdaftar atau salah penulisan <i>email </i>dan <i>password</i>. Jika <i>email </i>belum terdaftar, silahkan melakukan <i>register </i>terlebih dahulu. Jika pelamar/Anda&nbsp;lupa <i>password</i>, silahkan klik tombol <b>Lupa Password</b> di halaman login. Kemudian <i>reset password</i> akan dikirimkan ke <i>email </i>Anda.<br></p>        </div>
-      </div>--}}
-    </div>
-      <div class="card-faq" style="">
-      <div onclick="collapse_faq(19)" class="card-faq-header" data-toggle="collapse" data-target="#collapse19" id="heading19" style="cursor:pointer; background:white;">
-          <div class="row">
-            <div class="col-12" style="">
-              <b style="margin:0px">Bagaimana cara berinteraksi dengan portfolio pengguna lain?</b>
-              <i id="icon_collapse_19" style="cursor: pointer;float: right;" class="material-icons" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">keyboard_arrow_down</i>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Bagaimana cara berinteraksi dengan portfolio pengguna lain?
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                CORS, aka Cross-Origin Resource Sharing, is a mechanism that enables many resources (e.g. images, stylesheets, scripts, fonts) on a web page to be requested from another domain outside the domain from which the resource originated.
+              </div>
             </div>
           </div>
-      </div>
-      <div id="collapse19" class="collapse" aria-labelledby="heading19" data-parent="#accordionExample">
-        <div class="card-body">
-          <p style="text-align: justify; "><span style="font-family: " times="" new="" roman";="" font-size:="" 15px;="" white-space:="" pre-wrap;"="">Pastikan alamat <i>email </i>dan KTP sudah benar. Jika sudah pernah registrasi, silakan cek email verifikasi akun yang dikirimkan dari <b>Panitia Rekrutmen Bersama BUMN</b>. Karena <i>email </i>dan KTP yang sama hanya diperkenankan mendaftar satu kali. Jika belum melakukan registrasi, kandidat bisa mencoba registrasi secara berkala. Cek kembali di seluruh folder <i>email </i>terdaftar baik di <i>inbox, spam, junk, </i>dan <i>all mail</i>.</span></p>        </div>
-      </div>
-    </div>
-    
-    
+        </div>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat');
+          .accordion {
+            width: 90%;
+            max-width: 1000px;
+            margin: 2rem auto;
+          }
+          .accordion-item {
+            background-color: #fff;
+            color: #111;
+            margin: 1rem 0;
+            border-radius: 1rem;
+            border: 3px solid #27789A;
+            box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05),
+                        0 0.3px 0.4px hsla(230, 13%, 9%, 0.02),
+                        0 0.9px 1.5px hsla(230, 13%, 9%, 0.045),
+                        0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+          }
+          .accordion-item-header {
+            font-family: Montserrat;
+            padding: 0.5rem 3rem 0.5rem 1rem;
+            min-height: 5rem;
+            line-height: 1.5rem;
+            display: flex;
+            align-items: center;
+            position: relative;
+            cursor: pointer;
+            font-weight: bold;
+            color: #0A4148;
+          }
+          .accordion-item-header::after {
+            content: "\002B";
+            font-size: 2rem;
+            position: absolute;
+            right: 1rem;
+          }
+          .accordion-item-header.active::after {
+            content: "\2212";
+          }
+          .accordion-item-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+          }
+          .accordion-item-body-content {
+            padding: 1rem;
+            line-height: 1.5rem;
+            border-top: 1px solid;
+            border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+          }
 
+          @media (max-width: 767px) {
+            html {
+              font-size: 14px;
+            }
+          }
 
+        </style>
+        <script>
+          const accordionItemHeaders = document.querySelectorAll(
+            ".accordion-item-header"
+          );
 
+          accordionItemHeaders.forEach((accordionItemHeader) => {
+            accordionItemHeader.addEventListener("click", (event) => {
+              // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
 
-<script type="text/javascript">
-  function scrollToServiceDesk(){
-    const element = document.getElementById("service-desk-page");
-    element.scrollIntoView();
-  }
-  function collapse_faq(id){
-    if (document.querySelector('#heading'+id).getAttribute('aria-expanded') == 'true') {
-      document.querySelector('#icon_collapse_'+id).style.transform = 'rotate(0deg)';
-    }
-    else {
-      document.querySelector('#icon_collapse_'+id).style.transform = 'rotate(180deg)';
-    }
-  }
+              const currentlyActiveAccordionItemHeader = document.querySelector(
+                ".accordion-item-header.active"
+              );
+              if (
+                currentlyActiveAccordionItemHeader &&
+                currentlyActiveAccordionItemHeader !== accordionItemHeader
+              ) {
+                currentlyActiveAccordionItemHeader.classList.toggle("active");
+                currentlyActiveAccordionItemHeader.nextElementSibling.style.maxHeight = 0;
+              }
+              accordionItemHeader.classList.toggle("active");
+              const accordionItemBody = accordionItemHeader.nextElementSibling;
+              if (accordionItemHeader.classList.contains("active")) {
+                accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
+              } else {
+                accordionItemBody.style.maxHeight = 0;
+              }
+            });
+          });
 
-  var delayTimer;
-  function search_keyword() {
-      clearTimeout(delayTimer);
-      delayTimer = setTimeout(function() {
-
-        var value = $("#keyword").val().toLowerCase();
-        $('.card-faq').filter(function() {
-          $(this).toggle( $(this).find('b').text().toLowerCase().indexOf(value) > -1 )
-        });
-        var dataList = $('.card-faq').filter((_,e) => e.style.display != 'none');
-        if(dataList.length == 0){
-          $('#list_faq').hide();
-          $('#faq_message').show();
-        } else{
-          $('#list_faq').show();
-          $('#faq_message').hide();
-        }
-
-      }, 1000); // Will do the ajax stuff after 1000 ms, or 1 s
-  }
-</script>
+        </script>
+                    
       </div>
 
     </section>
