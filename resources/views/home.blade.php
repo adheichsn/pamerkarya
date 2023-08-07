@@ -94,8 +94,8 @@
         <!-- Benefit section (2) -->
         <div class="pt-20 sm:pt-28">
             <div class="px-6 mx-auto max-w-7xl lg:px-2">
-                <h2 class="py-5 text-5xl font-bold text-left text-black sm:text-5xl md:text-3xl lg:text-2xl xl:text-xl 2xl:text-lg" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">Gaya Tinggi</h2>
-                <h2 class="mb-5 text-5xl font-bold leading-loose text-left text-black sm:text-5xl md:text-3xl lg:text-2xl xl:text-xl 2xl:text-lg" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">Untuk Portofolio yang <span style="color: #06E3FF;">Luar Biasa</span></h2>
+                <h2 class="py-3 text-5xl font-bold text-left text-black sm:text-5xl md:text-3xl lg:text-2xl xl:text-xl 2xl:text-lg" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">Gaya Tinggi</h2>
+                <h2 class="mb-5 text-5xl font-bold leading-[4rem] text-left text-black sm:text-5xl md:text-3xl lg:text-2xl xl:text-xl 2xl:text-lg" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">Untuk Portofolio yang <span style="color: #06E3FF;">Luar Biasa</span></h2>
                 <div class="grid grid-cols-1 gap-8 py-10 sm:grid-cols-2 lg:grid-cols-3">
                     <div class="pt-4 pb-8 pr-6 border-t-2 border-indigo-500/100" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
                         <h2 class="text-xl font-semibold">Jaringan Kebidangan Luas</h2>
@@ -132,7 +132,7 @@
             <div class="max-w-2xl mx-auto lg:max-w-none">
                 <div class="text-center">
                     <div data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out">
-                        <p class="text-xl custom-line-spacing sm:text-lg md:text-lg">
+                        <p class="text-lg custom-line-spacing sm:text-lg md:text-lg">
                             PamerKarya mempersembahkan Karya kreatif dan inovatif yang dihasilkan oleh siswa-siswa 
                             kami yang berbakat dan mempunyai ide ide yang luar biasa. Website ini dirancang sebagai 
                             wadah untuk memamerkan kemampuan, inspirasi, dan dedikasi para kreator muda. Melalui tata 
