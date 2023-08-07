@@ -13,7 +13,7 @@ class Post extends Model
 
     protected $guarded = ['id'];
     protected $with = ['category', 'user'];
-    protected $fillable = ['views', 'title', 'slug', 'category_id', 'user_id', 'image', 'image2', 'image3', 'image4', 'video', 'slogan', 'body', 'excerpt'];
+    protected $fillable = ['views', 'title', 'slug', 'category_id', 'user_id', 'image', 'image2', 'image3', 'image4', 'video', 'slogan', 'body', 'excerpt', 'views_count'];
 
     public function scopeFilter($query, array $filters)
     {
@@ -62,6 +62,16 @@ class Post extends Model
     public function comments()
     {
         return $this->hasMany(Comment::class);
+    }
+
+    public function likes()
+    {
+        return $this->hasMany(Like::class);
+    }
+
+    public function getViewsCountAttribute()
+    {
+        return $this->attributes['views_count'];
     }
 
     

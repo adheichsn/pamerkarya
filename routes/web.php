@@ -99,3 +99,14 @@ Route::get('/generate', function () {
 Route::middleware('auth')->group(function () {
     Route::post('/comments', [CommentController::class, 'store'])->name('comments.store');
 });
+
+// routes/web.php
+Route::middleware('auth')->group(function () {
+    // Route::post('/post/{id}/like', 'LikeController@toggleLike')->name('post.like');
+    Route::post('/post/{id}/like', [LikeController::class, 'toggleLike'])->name('post.like');
+});
+
+// routes/web.php
+// Route::get('/post/{id}', 'PostViewController@show')->name('post.show');
+// Route::get('/post/{id}', [PostController::class, 'show'])->name('post.show');
+

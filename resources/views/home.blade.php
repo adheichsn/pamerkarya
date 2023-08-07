@@ -264,39 +264,291 @@
         </div>
 
         <!-- Partners section -->
-        
+       
+        <div class="pt-24 pb-10 shadow-2xl sm:pt-28">
+            <div class="px-6 mx-auto shadow-2xl max-w-7xl lg:px-2">
+                <div class="max-w-2xl mx-auto text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">Kerjasama Kami</h2>
+                    <p class="mt-2 text-lg leading-8 text-black">Menghubungkan dan Berkolaborasi dengan Mitra Kami</p>
+                </div>
+                <!-- ====== Brands Section Start -->
+                <section class="bg-white py-20 mt-10 lg:py-[120px]" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                <div class="container mx-auto">
+                    <div class="flex flex-wrap mx-4">
+                    <div class="w-full px-4">
+                        <div class="flex flex-wrap items-center justify-center gap-8">
+                        <a
+                            href="javascript:void(0)"
+                            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+                        >
+                            <img
+                            src="/img/SMK Al Falah Tanjungjaya.png"
+                            alt="image"
+                            class="w-[32px] h-10" style="width: 140px;"
+                            />
+                        </a>
+                        <a
+                            href="javascript:void(0)"
+                            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+                        >
+                            <img
+                            src="/img/Logo SMK Islam Said Na_um.png"
+                            alt="image"
+                            class="w-full h-10" style="width: 140px;"
+                            />
+                        </a>
+                        <a
+                            href="javascript:void(0)"
+                            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+                        >
+                            <img
+                            src="/img/Logo SMK N 14 Bandung.jpeg"
+                            alt="image"
+                            class="w-full h-10" style="width: 140px;"
+                            />
+                        </a>
+                        <a
+                            href="javascript:void(0)"
+                            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+                        >
+                            <img
+                            src="/img/SMKN 1 Tannjung Raya.png"
+                            alt="image"
+                            class="w-full h-10" style="width: 140px;"
+                            />
+                        </a>
+                        <a
+                            href="javascript:void(0)"
+                            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+                        >
+                            <img
+                            src="/img/SMKN-2-SUMEDANG.png"
+                            alt="image"
+                            class="w-full h-10" style="width: 110px;"
+                            />
+                        </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </section>
+                <!-- ====== Brands Section End -->
+
+            </div>
+        </div>
 
         <!-- Call To Action section -->
         <div class="pt-20 shadow-2xl sm:pt-28">
-            <div class="px-6 mx-auto shadow-2xl max-w-7xl lg:px-2">
-                <div class="container px-4 mx-auto rounded shadow-2xl py-9 md:py-12 md:px-6" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
-                    <div class="flex flex-col justify-center space-y-4 shadow-2xl items-strech md:flex-row md:space-y-0 md:space-x-6 lg:space-x-8">
-                        <div class="flex flex-row justify-between gap-10 px-10 py-6 rounded-lg shadow-2xl md:flex-row items-strech bg-gray-50 dark:bg-gray-800 md:py-12 lg:px-12 md:w-8/12 lg:w-7/12 xl:w-8/12 2xl:w-9/12">
-                            <div class="flex flex-col justify-center md:w-1/2">
-                                <h1 class="mt-10 text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white">Buat Portfoliomu Sekarang!</h1>
-                                <h2 class="py-5 text-lg text-gray-800 lg:text-4xl dark:text-white">Mari temukan kreativitas tak terbatas! Temukan proyek-proyek inspiratif dari berbagai bidang yang memukau dan mewujudkan ide-ide luar biasa.</h2>
-                                <div class="flex py-10 mt-8 md:w-1/2 md:mt-0 md:justify-end">
-                                    <!-- <img src="https://i.ibb.co/J2BtZdg/Rectangle-56-1.png" alt="" class="" /> -->
-                                    <a href="/about">
-                                        <button type="button"
-                                            class="inline-flex items-center rounded-full bg-[#06E3FF] px-[78px] py-[21px] text-lg font-semibold text-[#2B2B2B] shadow-sm hover:bg-slate-500 hover:text-white transition duration-300 ease-in-out">
-                                            <h1>Daftar</h1>
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="w-full px-12 lg:w-1/2">
-                                <div class="mt-10 mr-10">
-                                    <!-- <img src="img/landingbg.png" class="max-w-full mx-auto" alt="VR Man"> -->
-                                    <img src="img/amusement.png" class="max-w-full mx-auto" alt="Collage img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="px-6 mx-auto shadow-2xl max-w-7xl lg:px-2">
+        <section class="cta-banner cta-banner--text-center@md cd-padding-sm">
+            <div class="cta-banner__grid">
+                <div class="cta-banner__content">
+                <h1 class="text-3xl">Buat Portfoliomu Sekarang!</h1>
+
+                <p class="text-gray-500 text-md">Mari temukan kreativitas tak terbatas! Temukan proyek-proyek inspiratif dari berbagai bidang yang memukau dan mewujudkan ide-ide luar biasa.</p>
+
+                <div class="cta-banner__btns">
+                    <a href="#0" class="cd-btn cd-btn--primary">Daftar 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
+                    </a>
+                    <a href="#0" class="cd-link cd-link--contrast-higher">Pelajari</a>
+                </div>
                 </div>
             
+                <figure>
+                <img class="max-w-full mx-auto cta-banner__img cd-radius-md" src="/img/amusement.png" alt="Image description" style="width:400px;">
+                </figure>
             </div>
+
+            <style> 
+            /* reset */
+
+            html {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            }
+
+            body {
+            background-color: hsl(0, 0%, 100%);
+            font-family: system-ui, sans-serif;
+            /* color: hsl(230, 7%, 23%); */
+            font-size: 1.125rem; /* 18px */
+            line-height: 1.4;
+            }
+
+            h1, h2, h3, h4 {
+            line-height: 1.2;
+            /* color: hsl(230, 13%, 9%); */
+            font-weight: 700;
+            }
+
+            /* -------------------------------- 
+
+            Buttons 
+
+            -------------------------------- */
+
+            .cd-btn {
+            position: relative;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375em;
+            font-size: 1em;
+            text-decoration: none;
+            line-height: 1.2;
+            cursor: pointer;
+            transition: 0.2s;
+            will-change: transform;
+            }
+
+            .cd-btn:focus-visible {
+            outline: none;
+            }
+
+            .cd-btn:active {
+            transform: translateY(2px);
+            }
+
+            .cd-btn--primary {
+            background: hsl(250, 84%, 54%);
+            box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.15), 
+                        0 1px 3px hsla(250, 84%, 38%, 0.25), 
+                        0 2px 6px hsla(250, 84%, 38%, 0.1), 
+                        0 6px 10px -2px hsla(250, 84%, 38%, 0.25);
+            color: hsl(0, 0%, 100%);
+            }
+
+            .cd-btn--primary:hover {
+            background: hsl(250, 84%, 60%);
+            box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.15), 
+                        0 1px 2px hsla(250, 84%, 38%, 0.25), 
+                        0 1px 4px hsla(250, 84%, 38%, 0.1), 
+                        0 3px 6px -2px hsla(250, 84%, 38%, 0.25);
+            }
+
+            .cd-btn--primary:focus-visible {
+            box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.15), 
+                        0 1px 2px hsla(250, 84%, 38%, 0.25), 
+                        0 1px 4px hsla(250, 84%, 38%, 0.1), 
+                        0 3px 6px -2px hsla(250, 84%, 38%, 0.25), 
+                        0 0 0 2px hsl(0, 0%, 100%), 
+                        0 0 0 4px hsl(250, 84%, 54%);
+            }
+
+            /* -------------------------------- 
+
+            Component 
+
+            -------------------------------- */
+
+            .cta-banner {
+            background: linear-gradient(to right, #F1FAFC, #E9E8F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            /* background-color: hsl(0, 0%, 100%); */
+            border-radius: 0.75em;
+            box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05),
+                        0 0.3px 0.4px hsla(230, 13%, 9%, 0.02),
+                        0 0.9px 1.5px hsla(230, 13%, 9%, 0.045),
+                        0 3.5px 6px hsla(230, 13%, 9%, 0.09);
+            overflow: hidden;
+            }
+
+            .cta-banner__grid {
+            display : grid;
+            align-items: center;
+            gap: 1.5rem;
+            }
+
+            .cta-banner__grid > * {
+            min-width: 0;
+            }
+
+            .cta-banner__content {
+            text-align: center;
+            display: grid;
+            gap: 0.75rem;
+            }
+
+            .cta-banner__title {
+            font-size: 1.75rem;
+            }
+
+            .cta-banner__description {
+            font-size: 0.9375rem;
+            color: hsl(225, 4%, 47%);
+            }
+
+            .cta-banner__btns {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            }
+
+            .cta-banner__img {
+            width: 100%;
+            }
+
+            @media (min-width: 64rem) {
+            .cta-banner__grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .cta-banner__description {
+                font-size: 1.125rem;
+            }
+
+            .cta-banner:not(.cta-banner--text-center\@md) .cta-banner__content {
+                padding-left: 1.5rem;
+                text-align: left;
+            }
+
+            .cta-banner:not(.cta-banner--text-center\@md) .cta-banner__btns {
+                justify-content: start;
+            }
+            }
+
+            /* -------------------------------- 
+
+            Utilities 
+
+            -------------------------------- */
+
+            .cd-padding-sm {
+            padding: 1.5rem;
+            }
+
+            .cd-radius-md {
+            border-radius: 0.375em;
+            }
+
+            .cd-link {
+            color: hsl(250, 84%, 54%);
+            text-decoration: none;
+            background-image: linear-gradient(to right, hsl(250, 84%, 54%) 50%, hsla(250, 84%, 54%, 0.2) 50%);
+            background-size: 200% 1px;
+            background-repeat: no-repeat;
+            background-position: 100% 100%;
+            transition: background-position 0.2s;
+            }
+
+            .cd-link:hover {
+            background-position: 0% 100%;
+            }
+
+            .cd-link--contrast-higher {
+            color: hsl(230, 13%, 9%);
+            background-image: linear-gradient(to right, hsl(230, 13%, 9%) 50%, hsla(230, 13%, 9%, 0.1) 50%);
+            }
+        </style>
+        </section>
         </div>
+        </div>
+        
         <!-- Contact Person section -->
         <div class="relative isolate">
             <div class="grid grid-cols-1 mx-auto max-w-7xl lg:grid-cols-2">

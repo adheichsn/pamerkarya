@@ -95,6 +95,5 @@ class DatabaseSeeder extends Seeder
         //     'category_id'=>2,
         //     'user_id'=>2
         // ]);
-        
     }
 }
