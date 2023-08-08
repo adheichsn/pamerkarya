@@ -33,34 +33,19 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         Category::create([
-            'name'=>'Progamming',
-            'slug'=>'progamming',
+            'name'=>'Virtual Reality',
+            'slug'=>'Virtual-Reality',
 
         ]);
 
         Category::create([
-            'name'=>'Web Design',
-            'slug'=>'web-design',
+            'name'=>'Internet of Things',
+            'slug'=>'Internet-of-things',
             
         ]);
         Category::create([
-            'name'=>'Personal',
-            'slug'=>'personal',
-            
-        ]);
-        Category::create([
-            'name'=>'Backend',
-            'slug'=>'Backend',
-            
-        ]);
-        Category::create([
-            'name'=>'FrontEnd',
-            'slug'=>'FrontEnd',
-            
-        ]);
-        Category::create([
-            'name'=>'DevOps',
-            'slug'=>'DevOps',
+            'name'=>'Metaverse',
+            'slug'=>'Metaverse',
             
         ]);
 

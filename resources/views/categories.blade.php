@@ -5,11 +5,8 @@
     <section id="category" class="flex justify-center text-black bg-white">
         <div class="container">
             <div class="pt-14">
-                <div class="px-6 mx-auto max-w-7xl lg:px-20 lg:py-10">
-                    <h1 class="max-w-6xl text-xl font-semibold text-center md:text-5xl">"Unveiling the Design Spectrum
-                        Categories in the
-                        World of
-                        Design"</h1>
+                <div class="max-w-5xl px-6 mx-auto lg:px-20 lg:py-10">
+                    <h1 class="max-w-5xl text-lg font-semibold text-center md:text-4xl">"Membuka kategori dalam spektrum desain"</h1>
                     <div
                         class="grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-16 auto-rows-fr sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                         @foreach ($categories as $category)

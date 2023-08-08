@@ -64,7 +64,7 @@
                 </a>
             </div>
             <div class="flex items-center px-4">
-                <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden ">
+                <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
                     <span class="text-black transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
                     <span class="text-black transition duration-300 ease-in-out hamburger-line"></span>
                     <span class="text-black transition duration-300 ease-in-out origin-bottom-left hamburger-line"></span>
@@ -75,24 +75,24 @@
                     <ul class="block lg:flex">
                         <li class="group">
                             <a href="/"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('/') ? 'text-black' : 'text-slate-400' }}">Home</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-400 {{ Request::is('/') ? 'text-white' : 'text-slate-400' }}">Home</a>
                         </li>
                         <li class="group">
                             <a href="/product"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('product') ? 'text-black' : 'text-slate-400' }}">Galeri</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('product') ? 'text-white' : 'text-slate-400' }}">Galeri</a>
                         </li>
                         <li class="group">
                             <a href="/about"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('about') ? 'text-black' : 'text-slate-400' }}">Pelajari</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('about') ? 'text-white' : 'text-slate-400' }}">Pelajari</a>
                         </li>
                         <li class="group">
                             <a href="/categories"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('categories') ? 'text-black' : 'text-slate-400' }}">Kategori</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('categories') ? 'text-white' : 'text-slate-400' }}">Kategori</a>
                         </li>
                         @auth
                             <li class="relative group">
                                 <button type="button" id="dropdown"
-                                    class="inline-flex w-full justify-start gap-x-1.5 rounded-md bg-transparent px-8 py-2 text-sm font-semibold text-black shadow-sm transition duration-300 ease-in-out hover:bg-gray-600 hover:bg-opacity-50"
+                                    class="inline-flex w-full justify-start gap-x-1.5 rounded-md bg-transparent px-8 py-2 text-sm font-semibold text-white shadow-sm transition duration-300 ease-in-out hover:bg-gray-600 hover:bg-opacity-50"
                                     id="menu-button" aria-expanded="true" aria-haspopup="true">
                                     Welcome, {{ auth()->user()->name }}
                                     <svg class="w-5 h-5 -mr-1 text-gray-400" viewBox="0 0 20 20" fill="currentColor"

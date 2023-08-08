@@ -55,10 +55,10 @@
                         <h3 class="text-sm font-semibold leading-6 text-black">Company</h3>
                         <ul role="list" class="mt-6 space-y-4">
                             <li>
-                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">About</a>
+                                <a href="/about" class="text-sm leading-6 text-black-300 hover:text-black">About</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Galeri</a>
+                                <a href="/product" class="text-sm leading-6 text-black-300 hover:text-black">Galeri</a>
                             </li>
                         </ul>
                     </div>
@@ -66,14 +66,14 @@
                         <h3 class="text-sm font-semibold leading-6 text-black">Categories</h3>
                         <ul role="list" class="mt-6 space-y-4">
                             <li>
-                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Virtual Reality</a>
+                                <a href="/product?category=Virtual-Reality" class="text-sm leading-6 text-black-300 hover:text-black">Virtual Reality</a>
                             </li>
                             <li>
-                                <a href="#"
+                                <a href="/product?category=Internet-of-things"
                                     class="text-sm leading-6 text-black-300 hover:text-black">Internet of Things</a>
                             </li>
                             <li>
-                                <a href="#" class="text-sm leading-6 text-black-300 hover:text-black">Metaverse</a>
+                                <a href="/product?category=Metaverse" class="text-sm leading-6 text-black-300 hover:text-black">Metaverse</a>
                             </li>
                         </ul>
                     </div>
