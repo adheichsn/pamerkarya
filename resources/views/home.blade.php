@@ -340,7 +340,7 @@
         <!-- Call To Action section -->
         <div class="pt-20 shadow-2xl sm:pt-28">
         <div class="px-6 mx-auto shadow-2xl max-w-7xl lg:px-2">
-        <section class="cta-banner cta-banner--text-center@md cd-padding-sm">
+        <section class="cta-banner cta-banner--text-center@md cd-padding-sm" data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-out">
             <div class="cta-banner__grid">
                 <div class="cta-banner__content">
                 <h1 class="text-3xl">Buat Portfoliomu Sekarang!</h1>

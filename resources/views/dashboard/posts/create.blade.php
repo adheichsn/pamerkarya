@@ -42,7 +42,7 @@
             </div>
             <div class="mb-3">
                 <label for="image" class="form-label @error('image') is-invalid @enderror">Choose Your Thumbnail
-                    Image</label>
+                    Image (max. 2mb)</label>
                 <img class="mt-3 img-preview img-fluid col-sm-5">
                 <input class="form-control" type="file" id="image" name="image" onchange="previewImage()">
                 @error('image')
@@ -54,7 +54,7 @@
             <div class="grid flex-row gap-3 mb-3 d-flex">
                 <div class="">
                     <label for="image" class="form-label @error('image') is-invalid @enderror">Choose Your Image
-                        1</label>
+                        1 (max. 2mb)</label>
                     <img class="mt-3 img-preview img-fluid col-sm-5">
                     <input class="form-control" type="file" id="image2" name="image2" onchange="previewImage()">
                     @error('image2')
@@ -65,7 +65,7 @@
                 </div>
                 <div class="">
                     <label for="image" class="form-label @error('image') is-invalid @enderror">Choose Your Image
-                        2</label>
+                        2 (max. 2mb)</label>
                     <img class="mt-3 img-preview img-fluid col-sm-5">
                     <input class="form-control" type="file" id="image3" name="image3" onchange="previewImage()">
                     @error('image3')
@@ -76,7 +76,7 @@
                 </div>
                 <div class="">
                     <label for="image" class="form-label @error('image') is-invalid @enderror">Choose Your Image
-                        3</label>
+                        3 (max. 2mb)</label>
                     <img class="mt-3 img-preview img-fluid col-sm-5">
                     <input class="form-control" type="file" id="image4" name="image4" onchange="previewImage()">
                     @error('image4')
