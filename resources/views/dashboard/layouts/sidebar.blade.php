@@ -13,6 +13,12 @@
                     My Posts
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link {{ Request::is('dashboard/profile*') ? 'active' : '' }}" href="/dashboard/profile">
+                    <span data-feather="user" class="align-text-bottom"></span>
+                    My Profile
+                </a>
+            </li>
         </ul>
 
         {{-- Administrator --}}

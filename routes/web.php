@@ -11,7 +11,9 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\DashboardProfileController;
 use Facade\FlareClient\View;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -78,6 +80,13 @@ route::get('/register', [RegisterController::class, 'index'])->middleware('guest
 route::post('/register', [RegisterController::class, 'store']);
 
 route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
+
+Route::middleware(['auth'])->group(function () {
+
+    Route::get('/dashboard/profile', [DashboardProfileController::class, 'show'])->name('profile.show');
+    Route::get('/dashboard/profile/edit', [DashboardProfileController::class, 'edit'])->name('profile.edit'); // Add this line
+    Route::put('/dashboard/profile/update', [DashboardProfileController::class, 'update'])->name('profile.update');
+});
 
 //Dashboard
 route::get('/dashboard', function () {
