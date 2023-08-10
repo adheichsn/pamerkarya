@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="mt-4 card">
+            <div class="mt-4 mb-4 card">
                 <h3 class="card-header">Edit Profile</h3>
 
                 <div class="card-body">
@@ -39,13 +39,31 @@
                         </div>
 
                         <div class="grid flex-row gap-3 mb-3 d-flex">
+                            <!-- <div class="mb-3 form-group">
+                                <label for="province" class="form-label">Province</label>
+                                <select class="form-control" id="province" name="province">
+                                    <option>Provinsi</option>
+                                </select>
+                            </div> -->
+                            <script>
+                                // fetch(`https://kanglerian.github.io/api-wilayah-indonesia/api/provinces.json`)
+                                //     .then(response => response.json())
+                                //     .then(provinces => {
+                                //         var data = provinces;
+                                //         var tampung = '<option>Provinsi</option>';
+                                //         array.forEach(element => {
+                                //             tampung += '<options data-reg="${element.id}" value="${element.name}">${element.name}</options>';
+                                //         });
+                                //         document.getElementById('province').innerHTML = tampung;
+                                //     });
+                            </script>
                             <div class="mb-3 form-group">
                                 <label for="province">{{ __('Province') }}</label>
                                 <input id="province" type="text" class="form-control" name="province" placeholder="Isi data kamu" value="{{ old('province', $user->province) }}">
                             </div>
                         
                             <div class="mb-3 form-group">
-                                <label for="city">{{ __('City') }}</label>
+                                <label for="city">City</label>
                                 <input id="city" type="text" class="form-control" name="city" placeholder="Isi data kamu" value="{{ old('city', $user->city) }}">
                             </div>                            
                         </div>
@@ -93,9 +111,9 @@
                             @enderror
                         </div> -->
 
-                        <div class="mb-0 form-group row">
+                        <div class="mb-0 mt-2 form-group row">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-primary btn-lg">
                                     {{ __('Update Profile') }}
                                 </button>
                             </div>
