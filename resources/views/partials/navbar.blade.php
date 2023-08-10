@@ -71,23 +71,23 @@
                 </button>
 
                 <nav id="nav-menu"
-                    class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-[#2B2B2B] py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none ring-1 ring-inset ring-gray-600 lg:ring-0">
+                    class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-[#2B2B2B] py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:ring-0">
                     <ul class="block lg:flex">
                         <li class="group">
                             <a href="/"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-400 {{ Request::is('/') ? 'text-white' : 'text-slate-400' }}">Home</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-400 {{ Request::is('/') ? 'text-grey' : 'text-slate-400' }}">Home</a>
                         </li>
                         <li class="group">
                             <a href="/product"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('product') ? 'text-white' : 'text-slate-400' }}">Galeri</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('product') ? 'text-grey' : 'text-slate-400' }}">Galeri</a>
                         </li>
                         <li class="group">
                             <a href="/about"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('about') ? 'text-white' : 'text-slate-400' }}">Pelajari</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('about') ? 'text-grey' : 'text-slate-400' }}">Pelajari</a>
                         </li>
                         <li class="group">
                             <a href="/categories"
-                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('categories') ? 'text-white' : 'text-slate-400' }}">Kategori</a>
+                                class="mx-8 flex py-2 text-base transition duration-300 ease-in-out group-hover:text-slate-600 {{ Request::is('categories') ? 'text-grey' : 'text-slate-400' }}">Kategori</a>
                         </li>
                         @auth
                             <li class="relative group">

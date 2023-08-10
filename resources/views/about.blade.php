@@ -5,7 +5,7 @@
 
     <section id="about" class="text-black bg-white">
         <div class="relative pb-20 overflow-hidden isolate pt-14">
-            <div class="flex flex-wrap items-start px-5 py-16 mx-auto">
+            <div class="items-start px-5 py-16 mx-auto">
             {{--<div class="w-full px-10 space-y-10 lg:w-1/2">
                     <h1 class="text-5xl font-medium">We are Team who’s love Create some beneficial Product in creative
                         industries
@@ -109,10 +109,54 @@
                 </div>
             </div>--}}
 
-        <div class="w-full px-3 py-3 mx-auto text-black lg:px-18 lg:py-17">
+        <div class="pt-5 pb-7 shadow-2xl sm:pt-30">
+      <div class="px-6 mx-auto shadow-2xl max-w-7xl lg:px-2">
+          <div class="max-w-2xl mx-auto text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+              <h2 class="py-3 mb-3 text-5xl font-bold tracking-tight text-center text-black sm:text-4xl" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+                  Cara Menggunakan <span style="color: #06E3FF;">Pamer Karya</span>
+              </h2>
+              {{--<p class="mt-2 text-lg leading-10 text-black text-center">
+                    There's a method to our madness: we have techniques and tools to make sure we're asking the right questions,
+                    and come up with great design solutions that our users really need.
+                </p>--}}
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-white py-20 mt-10 lg:py-[120px]" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+      <div id="container" style="--title-background -color: rgba(42, 42, 42, 1.00);, --column-count: 4; --row-count: 2;">
+    <div id="icon">
+      <div id="maskedImage"></div>
+    
+        <div class="container mx-auto">
+            <div class="flex flex-wrap mx-4">
+                <div class="w-full px-4">
+                    <div class="flex flex-wrap items-center justify-center gap-8">
+                        <a href="javascript:void(0)" class="img-fluid rounded-4 mx-5 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
+                            <img src="/img/Chatbot Support 2.png" alt="image" class="w-full h-10" style="width: 200px;">
+                       
+                        <div class="title-title title-ltr">
+                          <span>Cara 1</span>
+                        </div>
+                        </a>  
+                        <a href="javascript:void(0)" class="mx-5 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
+                            <img src="/img/Chatbot Support (HD).png" alt="image" class="w-full h-10" style="width: 205px;">
+                        </a>
+                        <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
+                            <img src="/img/Secure Data (HD).png" alt="image" class="w-full h-10" style="width: 210px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+        </div>
+    </section>
+
+        {{--<div class="w-full px-3 py-3 mx-auto text-black lg:px-18 lg:py-17">
         <h2 class="py-5 mb-5 text-5xl font-bold tracking-tight text-center text-black sm:text-4xl" data-aos="fade-up" data-aos-duration="500"
             data-aos-easing="ease-in-out">Cara <span style="color: #06E3FF;">Penggunaan</span></h2>
-        </div>
+        </div>--}}
 
 
         <div class="w-full px-3 py-3 mx-auto text-black lg:px-18 lg:py-17">
