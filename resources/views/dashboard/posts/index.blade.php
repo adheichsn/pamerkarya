@@ -11,7 +11,16 @@
         </div>
     @endif
     <div class="table-responsive col-lg-8">
-        <a href="/dashboard/posts/create" class="mb-3 btn btn-primary"> Create New Post</a>
+        @if ($user->contact_number && $user->education && $user->city && $user->province && $user->address)
+            <a href="/dashboard/posts/create" class="mb-3 btn btn-primary"> Create New Post</a>
+        @else
+            <a href="/dashboard/posts" class="mb-3 btn btn-primary" disabled> Create New Post</a>
+            <p class="mb-3 text-danger">
+                <div class="alert alert-danger" role="alert">
+                    Isi data diri lengkap kamu di "My Profile" sebelum mengunggah, klik <a href="/dashboard/profile" class="alert-link">di sini</a>
+                </div>
+            </p>
+        @endif
         <table class="table table-striped table-sm">
             <thead>
                 <tr>

@@ -30,20 +30,33 @@
 
                         <div class="mb-3 form-group">
                             <label for="contact_number">{{ __('Contact Number') }}</label>
-                            <input id="contact_number" type="text" class="form-control @error('contact_number') is-invalid @enderror" name="contact_number" value="{{ old('contact_number', $user->contact_number) }}" required>
+                            <input id="contact_number" type="text" class="form-control @error('contact_number') is-invalid @enderror" placeholder="Isi data kamu" name="contact_number" value="{{ old('contact_number', $user->contact_number) }}">
                         </div>
 
                         <div class="mb-3 form-group">
                             <label for="education">{{ __('Education') }}</label>
-                            <input id="education" type="text" class="form-control @error('education') is-invalid @enderror" name="education" value="{{ old('education', $user->education) }}" required>
+                            <input id="education" type="text" class="form-control @error('education') is-invalid @enderror" placeholder="Isi data kamu" name="education" value="{{ old('education', $user->education) }}">
+                        </div>
+
+                        <div class="grid flex-row gap-3 mb-3 d-flex">
+                            <div class="mb-3 form-group">
+                                <label for="province">{{ __('Province') }}</label>
+                                <input id="province" type="text" class="form-control" name="province" placeholder="Isi data kamu" value="{{ old('province', $user->province) }}">
+                            </div>
+                        
+                            <div class="mb-3 form-group">
+                                <label for="city">{{ __('City') }}</label>
+                                <input id="city" type="text" class="form-control" name="city" placeholder="Isi data kamu" value="{{ old('city', $user->city) }}">
+                            </div>                            
                         </div>
 
                         <div class="mb-3 form-group">
                             <label for="address">{{ __('Address') }}</label>
-                            <input id="address" type="text" class="form-control @error('address') is-invalid @enderror" name="address" value="{{ old('address', $user->address) }}" required>
+                            <textarea class="form-control" id="address" name="address" placeholder="Isi data kamu">{{ old('address', $user->address) }}</textarea>
                         </div>
-
-                        <div class="grid flex-row gap-3 mb-3 d-flex">
+                        
+                        <p class="mb-3">Media sosial (opsional)</p>
+                        <div class="grid flex-row gap-3 d-flex">
                             <div class="mb-3 form-group">
                                 <label for="social_media">{{ __('Instagram') }}</label>
                                 <input id="social_media" type="text" class="form-control" name="instagram" value="{{ old('instagram', $user->instagram) }}">

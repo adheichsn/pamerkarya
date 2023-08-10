@@ -33,24 +33,19 @@
             </div>
             <div class="grid flex-row gap-3 mb-3 d-flex">
                 <div class="col-sm-5">
-                    <label for="number" class="form-label">Provinsi</label>
-                    <input type="text" class="form-control" id="number" name="number"
+                    <label for="province" class="form-label">Provinsi</label>
+                    <input type="text" class="form-control" id="province" name="province"
                         value="{{ $user->province }}" placeholder="Perbarui data kamu" disabled>
-                </div>
+                </div>   
                 <div class="col-sm-5">
-                    <label for="number" class="form-label">Kota</label>
-                    <input type="text" class="form-control" id="number" name="number"
+                    <label for="city" class="form-label">Kota</label>
+                    <input type="text" class="form-control" id="city" name="city"
                         value="{{ $user->city }}" placeholder="Perbarui data kamu" disabled>
-                </div>
+                </div>           
             </div>
-            <!-- <div class="mb-3">
-                <label for="address" class="form-label">Alamat Lengkap</label>
-                <input id="address" type="hidden" name="address" value="{{ $user->address }}" disabled>
-                <trix-editor input="address" disabled></trix-editor>
-            </div> -->
             <div class="mb-3">
-                <label for="slogan" class="form-label">Detail Alamat</label>
-                <textarea class="form-control" id="address" value="{{ $user->address }}" placeholder="Perbarui data kamu" disabled ></textarea>
+                <label for="address" class="form-label">Detail Alamat</label>
+                <textarea class="form-control" id="address" placeholder="Perbarui data kamu" disabled >{{ $user->address }}</textarea>
             </div>
             <p class="mb-3">Media sosial (opsional)</p>
             <div class="grid flex-row gap-3 mb-3 d-flex">

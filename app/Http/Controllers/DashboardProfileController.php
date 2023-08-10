@@ -26,9 +26,11 @@ class DashboardProfileController extends Controller
         'name' => ['required', 'string', 'max:255'],
         'username' => 'required|string|max:255',
         'email' => 'required|email|unique:users,email,' . $user->id,
-        'contact_number' => ['required', 'string', 'max:255'],
-        'education' => ['required', 'string', 'max:255'],
-        'address' => ['required', 'string', 'max:255'],
+        'contact_number' => ['nullable', 'string', 'max:255'],
+        'education' => ['nullable', 'string', 'max:255'],
+        'city' => ['nullable', 'string', 'max:255'],
+        'province' => ['nullable', 'string', 'max:255'],
+        'address' => ['nullable', 'string', 'max:255'],
         'instagram' => ['nullable', 'string', 'max:255'], // Make it optional
         'twitter' => ['nullable', 'string', 'max:255'], // Make it optional
         'linkedin' => ['nullable', 'string', 'max:255'], // Make it optional

@@ -7,6 +7,8 @@ use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Auth;
+
 
 class DashboardPostController extends Controller
 {
@@ -17,9 +19,14 @@ class DashboardPostController extends Controller
      */
     public function index()
     {
-        return view('dashboard.posts.index', [
-            'posts' => Post::where('user_id', auth()->user()->id)->get()
-        ]);
+        // return view('dashboard.posts.index', [
+        //     'posts' => Post::where('user_id', auth()->user()->id)->get()
+        // ]);
+        $user = Auth::user();
+        $posts = Post::where('user_id', $user->id)->get();
+        
+        return view('dashboard.posts.index', compact('user', 'posts'));
+        
     }
 
     /**
