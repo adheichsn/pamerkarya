@@ -109,13 +109,13 @@
                 </div>
             </div>--}}
 
-        <div class="pt-5 pb-7 shadow-2xl sm:pt-30">
+        <div class="pt-5 shadow-2xl pb-7 sm:pt-30">
       <div class="px-6 mx-auto shadow-2xl max-w-7xl lg:px-2">
           <div class="max-w-2xl mx-auto text-center" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
-              <h2 class="py-3 mb-3 text-5xl font-bold tracking-tight text-center text-black sm:text-4xl" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+              <h2 class="py-3 mb-3 text-4xl font-bold tracking-tight text-center text-black sm:text-lg" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
                   Cara Menggunakan <span style="color: #06E3FF;">Pamer Karya</span>
               </h2>
-              {{--<p class="mt-2 text-lg leading-10 text-black text-center">
+              {{--<p class="mt-2 text-lg leading-10 text-center text-black">
                     There's a method to our madness: we have techniques and tools to make sure we're asking the right questions,
                     and come up with great design solutions that our users really need.
                 </p>--}}
@@ -124,28 +124,60 @@
     </div>
 
     <section class="bg-white py-20 mt-10 lg:py-[120px]" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
-      <div id="container" style="--title-background -color: rgba(42, 42, 42, 1.00);, --column-count: 4; --row-count: 2;">
+      <div id="container" style="--title-background -color: rgba(42, 42, 42, 1.00); --column-count: 4; --row-count: 2;">
     <div id="icon">
       <div id="maskedImage"></div>
     
         <div class="container mx-auto">
             <div class="flex flex-wrap mx-4">
                 <div class="w-full px-4">
-                    <div class="flex flex-wrap items-center justify-center gap-8">
-                        <a href="javascript:void(0)" class="img-fluid rounded-4 mx-5 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                            <img src="/img/Chatbot Support 2.png" alt="image" class="w-full h-10" style="width: 200px;">
-                       
-                        <div class="title-title title-ltr">
-                          <span>Cara 1</span>
+                  <div class="grid grid-cols-1 gap-8 py-5 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="pt-4 pb-8 pr-6 border-t-2 border-indigo-500/100" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
+                        <div class="">
+                          <a href="javascript:void(0)" class="img-fluid rounded-4 mx-5 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
+                              <img src="/img/Chatbot Support 2.png" alt="image" class="w-full h-10" style="width: 250px;">
+                          </a>
                         </div>
-                        </a>  
-                        <a href="javascript:void(0)" class="mx-5 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                            <img src="/img/Chatbot Support (HD).png" alt="image" class="w-full h-10" style="width: 205px;">
-                        </a>
-                        <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                            <img src="/img/Secure Data (HD).png" alt="image" class="w-full h-10" style="width: 210px;">
-                        </a>
+                        <h2 class="text-2xl font-bold sm:text-xl">
+                          Mulai dengan login
+                        </h2>
+                        <p class="mt-5 leading-8 text-gray-600">
+                          Untuk melakukan login, buka halaman login pada bagian bar navigasi dan isi informasi yang sesuai,
+                          jika belum melakukan login, lakukan registrasi dengan mengisikan data diri anda, Pastikan 
+                          memasukkan informasi dengan cermat dan memperhatikan kesesuaian karakter.
+                        </p>
                     </div>
+
+                    <div class="pt-4 pb-8 pr-6 border-t-2 border-black rounded-lg shadow-md" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
+                        <div class="">
+                          <a href="javascript:void(0)" class="mx-5 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
+                              <img src="/img/Chatbot Support (HD).png" alt="image" class="w-full h-10" style="width: 250px;">
+                          </a>
+                        </div>
+                        <h2 class="mt-2 text-2xl font-bold sm:text-xl">
+                          Upload karya kamu
+                        </h2>
+                        <p class="mt-5 leading-8 text-gray-600">
+                          Sebelum Upload karya, mengisi data diri lengkap dan setelah itu mengupload 
+                          karya dengan mengisi judul, identitas, kategori, image, slogan, link 
+                          youtube dan deskripsi
+                        </p>
+                    </div>
+
+                    <div class="pt-4 pb-8 pr-6 border-t-2 border-black rounded-lg shadow-md" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
+                        <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
+                            <img src="/img/galeri_karya.png" alt="image" class="w-full h-10" style="width: 250px;">
+                        </a>
+                        <h2 class="text-2xl font-bold sm:text-xl">
+                          Jelajahi karya kami
+                        </h2>
+                        <p class="mt-5 leading-8 text-gray-600">
+                          Di galeri ini kamu dapat melihat kumpulan karya dengan kategori yang berbeda 
+                          beda seperti Virtual Reality, Internet of Things dan Metaverse. Kamu 
+                          dapat menjelajahi berbagai karya yang luar biasa!!!
+                        </p>
+                    </div>
+                </div>
                 </div>
             </div>
             </div>
@@ -160,7 +192,7 @@
 
 
         <div class="w-full px-3 py-3 mx-auto text-black lg:px-18 lg:py-17">
-        <h2 class="py-5 mb-5 text-5xl font-bold tracking-tight text-center text-black sm:text-4xl" data-aos="fade-up" data-aos-duration="500"
+        <h2 class="py-5 mb-5 text-4xl font-bold tracking-tight text-center text-black sm:text-3xl" data-aos="fade-up" data-aos-duration="500"
             data-aos-easing="ease-in-out">Frequently Asked <span style="color: #06E3FF;">Questions</span></h2>
         </div>
         <div class="accordion">
@@ -170,7 +202,12 @@
             </div>
             <div class="accordion-item-body">
               <div class="accordion-item-body-content">
-                Web Development broadly refers to the tasks associated with developing functional websites and applications for the Internet. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks.
+                Tahap pertama dalam mengunggah portofolio yaitu 
+                <ul>
+                  <li>- login ke akun anda</li>
+                  <li>- kemudian sebelum mengunggah portofolio, mengisi data diri lengkap</li>
+                  <li>- lalu mengunggah portofolio dengan mengisi judul, identitas, kategori, image, slogan, link youtube dan deskripsi</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -180,29 +217,17 @@
             </div>
             <div class="accordion-item-body">
               <div class="accordion-item-body-content">
-                HTML, aka HyperText Markup Language, is the dominant markup language for creating websites and anything that can be viewed in a web browser.
+                Batasan unggahan portfolio sebesar 2mb (2048 kilobytes)
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <div class="accordion-item-header">
-              Bagaimana cara mengunggah portfolio saya?
+              Apa jenis file yang dapat saya unggah sebagai portfolio?
             </div>
             <div class="accordion-item-body">
               <div class="accordion-item-body-content">
-                <ul style="padding-left: 1rem;">
-                  <li>HTML, CSS, JavaScript</li>
-                  <li>Frameworks (CSS and JavaScript frameworks)</li>
-                  <li>Responsive Design</li>
-                  <li>Version Control/Git</li>
-                  <li>Testing/Debugging</li>
-                  <li>Browser Developer Tools</li>
-                  <li>Web Performance</li>
-                  <li>SEO (Search Engine Optimization)</li>
-                  <!-- <li>CSS Preprocessing</li> -->
-                  <li>Command Line</li>
-                  <li>CMS (Content Management System)</li>
-                </ul>
+                File yang dapat diunggah sebagai portofolio adalah image jpg dan png dan kemudian link youtube
               </div>
             </div>
           </div>
@@ -212,7 +237,7 @@
             </div>
             <div class="accordion-item-body">
               <div class="accordion-item-body-content">
-                HTTP, aka HyperText Transfer Protocol, is the underlying protocol used by the World Wide Web and this protocol defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands.
+                Pada menu My Post di dashboard, kamu dapat menghapus portofolio yang telah diunggah. Selain itu kamu dapat mengubah portofolionya dengan cara mengedit karya portofoliomu
               </div>
             </div>
           </div>
@@ -222,7 +247,7 @@
             </div>
             <div class="accordion-item-body">
               <div class="accordion-item-body-content">
-                CORS, aka Cross-Origin Resource Sharing, is a mechanism that enables many resources (e.g. images, stylesheets, scripts, fonts) on a web page to be requested from another domain outside the domain from which the resource originated.
+                Portofolio yang telah kamu unggah akan otomatis terlihat untuk semua user yang menggunakan website ini. Pada unggahan portofolio, kamu dapat meihat berapa banyak user yang telah melihat karya portofoliomu. Selain itu User lain juga dapat memberikan like, komentar dan share karya portofolio kamu
               </div>
             </div>
           </div>
@@ -232,7 +257,7 @@
             </div>
             <div class="accordion-item-body">
               <div class="accordion-item-body-content">
-                CORS, aka Cross-Origin Resource Sharing, is a mechanism that enables many resources (e.g. images, stylesheets, scripts, fonts) on a web page to be requested from another domain outside the domain from which the resource originated.
+                Untuk berinteraksi dengan portofolio pengguna lain, Kamu dapat memberikan like dan komentar di postingan karya portolio user tersebut
               </div>
             </div>
           </div>
@@ -249,7 +274,7 @@
             color: #111;
             margin: 1rem 0;
             border-radius: 1rem;
-            border: 3px solid #27789A;
+            border: 3px solid #00C7E0;
             box-shadow: 0 0 0 1px hsla(230, 13%, 9%, 0.05),
                         0 0.3px 0.4px hsla(230, 13%, 9%, 0.02),
                         0 0.9px 1.5px hsla(230, 13%, 9%, 0.045),
