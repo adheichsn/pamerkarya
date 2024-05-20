@@ -112,7 +112,8 @@ Route::middleware('auth')->group(function () {
 // routes/web.php
 Route::middleware('auth')->group(function () {
     // Route::post('/post/{id}/like', 'LikeController@toggleLike')->name('post.like');
-    Route::post('/post/{id}/like', [LikeController::class, 'toggleLike'])->name('post.like');
+    Route::post('/post/like/{id}', [LikeController::class, 'like'])->name('post.like');
+    // Route::post('/post/{id}/like', [LikeController::class, 'toggleLike'])->name('post.like');
 });
 
 // routes/web.php

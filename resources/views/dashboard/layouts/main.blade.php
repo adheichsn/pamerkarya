@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>VR Lab-SMK | Dashboard</title>
+    <title>PamerKarya | Dashboard</title>
 
     {{-- trix Editor --}}
     <link rel="stylesheet" type="text/css" href="/css/trix.css">

@@ -12,7 +12,7 @@
                         href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Request::is('blog') ? 'active' : '' }}" href="/blog">blog</a>
+                    <a class="nav-link {{ Request::is('blog') ? 'active' : '' }}" href="/blog">Blog</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about">about</a>
@@ -60,7 +60,7 @@
         <div class="relative flex items-center justify-between">
             <div class="px-4">
                 <a href="/">
-                    <img src="{{ asset('/img/logo-vr.png') }}" class="w-16 h-16" alt="VR Lab">
+                    <img src="{{ asset('/img/pamerKarya.png') }}" class="w-45 h-16" alt="Pamerkarya.id">
                 </a>
             </div>
             <div class="flex items-center px-4">

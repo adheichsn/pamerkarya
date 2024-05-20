@@ -60,7 +60,7 @@
             <div class="w-full max-w-sm mx-auto lg:w-96">
                 <div>
                     <a href="/">
-                        <img class="w-auto h-20" src="img/logo-vr.png" alt="VR Lab Logo">
+                        <img class="w-auto h-20" src="/img/favivon.png" alt="smarteye">
                     </a>
                     <h2 class="mt-0 text-2xl font-bold leading-9 tracking-tight text-white">Sign in to your account</h2>
                 </div>

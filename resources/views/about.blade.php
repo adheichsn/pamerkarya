@@ -124,7 +124,7 @@
     </div>
 
     <section class="bg-white py-20 mt-10 lg:py-[120px]" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-out">
-      <div id="container" style="--title-background -color: rgba(42, 42, 42, 1.00); --column-count: 4; --row-count: 2;">
+      <div id="container" style="-color: rgba(42, 42, 42, 1.00); --column-count: 4; --row-count: 2;">
     <div id="icon">
       <div id="maskedImage"></div>
     
@@ -135,7 +135,7 @@
                     <div class="pt-4 pb-8 pr-6 border-t-2 border-indigo-500/100" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
                         <div class="">
                           <a href="javascript:void(0)" class="img-fluid rounded-4 mx-5 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                              <img src="/img/Chatbot Support 2.png" alt="image" class="w-full h-10" style="width: 250px;">
+                              <img src="/img/Chatbot Support 2.png" alt="image" class="w-full h-10" style="width: 280px;">
                           </a>
                         </div>
                         <h2 class="text-2xl font-bold sm:text-xl">
@@ -151,7 +151,7 @@
                     <div class="pt-4 pb-8 pr-6 border-t-2 border-black rounded-lg shadow-md" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
                         <div class="">
                           <a href="javascript:void(0)" class="mx-5 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                              <img src="/img/Chatbot Support (HD).png" alt="image" class="w-full h-10" style="width: 250px;">
+                              <img src="/img/Chatbot Support (HD).png" alt="image" class="w-full h-10" style="width: 280px;">
                           </a>
                         </div>
                         <h2 class="mt-2 text-2xl font-bold sm:text-xl">
@@ -166,7 +166,7 @@
 
                     <div class="pt-4 pb-8 pr-6 border-t-2 border-black rounded-lg shadow-md" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-out">
                         <a href="javascript:void(0)" class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]">
-                            <img src="/img/galeri_karya.png" alt="image" class="w-full h-10" style="width: 250px;">
+                            <img src="/img/galeri_karya.png" alt="image" class="w-full h-10" style="width: 280px;">
                         </a>
                         <h2 class="text-2xl font-bold sm:text-xl">
                           Jelajahi karya kami

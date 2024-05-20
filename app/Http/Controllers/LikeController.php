@@ -28,4 +28,27 @@ class LikeController extends Controller
 
         return redirect()->back();
     }
+
+    public function like(Request $request)
+    {
+        $postId = $request->input('post_id');
+        $userId = auth()->user()->id;
+
+        // Check if the user has already liked the post
+        $existingLike = Like::likedByUser($userId, $postId)->first();
+
+        if ($existingLike) {
+            // User has already liked the post, so unlike it
+            $existingLike->delete();
+            return redirect()->back()->with('success', 'Post unliked successfully.');
+        } else {
+            // User hasn't liked the post, so create a new like
+            Like::create([
+                'user_id' => $userId,
+                'post_id' => $postId,
+            ]);
+            return redirect()->back()->with('success', 'Post liked successfully.');
+        }
+    }
+
 }

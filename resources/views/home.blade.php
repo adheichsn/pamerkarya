@@ -327,6 +327,36 @@
                             class="w-full h-10" style="width: 110px;"
                             />
                         </a>
+                        <a
+                            href="javascript:void(0)"
+                            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+                        >
+                            <img
+                            src="/img/SMKN 2 Purwokerto.png"
+                            alt="image"
+                            class="w-full h-10" style="width: 110px;"
+                            />
+                        </a>
+                        <a
+                            href="javascript:void(0)"
+                            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+                        >
+                            <img
+                            src="/img/smkn9.png"
+                            alt="image"
+                            class="w-full h-10" style="width: 110px;"
+                            />
+                        </a>
+                        <a
+                            href="javascript:void(0)"
+                            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
+                        >
+                            <img
+                            src="/img/SMKN 11 Bandung.png"
+                            alt="image"
+                            class="w-full h-10" style="width: 110px;"
+                            />
+                        </a>
                         </div>
                     </div>
                     </div>
@@ -577,10 +607,11 @@
                             </div>
                         </div>
                         <h2 class="text-3xl font-bold tracking-tight text-black">Get in touch</h2>
-                        <p class="mt-6 text-lg leading-8 text-black-300">Terima kasih atas minat Anda terhadap Divisi VR
-                            Lab! Kami akan senang mendengar dari Anda. Jika Anda memiliki pertanyaan, ingin berdiskusi
+                        <p class="mt-6 text-lg leading-8 text-black-300">
+                            Terima kasih atas minat Anda terhadap Pamerkarya.id kami akan senang mendengar dari Anda. Jika Anda memiliki pertanyaan, ingin berdiskusi
                             tentang proyek VR Anda, atau tertarik bekerja sama dengan kami, jangan ragu untuk menghubungi
-                            kami. Kami siap membantu dan mengeksplorasi peluang yang menarik bersama Anda.</p>
+                            kami. Kami siap membantu dan mengeksplorasi peluang yang menarik bersama Anda.
+                        </p>
                         <dl class="mt-10 space-y-4 text-base leading-7 text-black-300">
                             <div class="flex gap-x-4">
                                 <dt class="flex-none">

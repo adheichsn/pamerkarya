@@ -20,4 +20,10 @@ class Like extends Model
     {
         return $this->belongsTo(Post::class);
     }
+
+    // Define a scope to check if a user has liked a specific post
+    public function scopeLikedByUser($query, $userId, $postId)
+    {
+        return $query->where('user_id', $userId)->where('post_id', $postId);
+    }
 }

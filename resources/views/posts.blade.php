@@ -10,7 +10,7 @@
             <div class="px-6 mx-auto max-w-7xl lg:px-8">
                 <div class="max-w-2xl mx-auto text-center" data-aos="fade-up" data-aos-duration="500"
                     data-aos-easing="ease-in-out">
-                    <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">Our Product</h2>
+                    <h2 class="text-3xl font-bold tracking-tight text-black sm:text-4xl">CATALOG PRODUCT</h2>
                     <p class="mt-2 text-lg leading-8 text-black">{{ $title }}</p>
                 </div>
                 <!-- Search bar -->
